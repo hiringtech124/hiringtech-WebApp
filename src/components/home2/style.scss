@@ -1,0 +1,120 @@
+.home-container::before {
+  z-index: -1;
+  top: -15%;
+  position: absolute;
+  content: "";
+  background-image: url("./assets/new.jpeg");
+  //   background-image: url("./assets/herobg.avif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 120%;
+  width: 100%;
+}
+
+.exddd::before {
+  content: "";
+  position: absolute;
+  background-image: url("./assetss/377.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center center;
+  height: 850px;
+  top: -10%;
+  z-index: -1;
+  width: 100%;
+}
+
+.vision-bg {
+  background: linear-gradient(45.42deg,
+      #abe1f8 20.58%,
+      #f9f9f9 38.51%,
+      #abe1f8 87.75%);
+}
+
+.vision-bg-j {
+  background: linear-gradient(45.42deg,
+      #abe1f8 20.58%,
+      #f9f9f9 38.51%,
+      #abe1f8 87.75%);
+}
+
+.about-bg {
+  // background: u
+  background-image: url("./assets/download\ \(5\)\ 1.png");
+  background-color: rgba(1, 1, 1, 0.301);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  height: 100%;
+  // backdrop-filter: blur(20px);
+  // background-opacity: 0.5;
+  z-index: 2;
+  height: 700px;
+}
+
+.about-bg::before {
+  content: "";
+  background-color: #09171db7;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  z-index: 1;
+}
+
+@media (max-width: 500px) {
+  .home-container::before {
+    z-index: -1;
+    top: -15%;
+    position: absolute;
+    content: "";
+    background-image: url("./assets/new.jpeg");
+    background-size: 500%;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    height: 120%;
+    width: 100%;
+  }
+
+  .about-bg {
+    // background: u
+    background-image: url("./assets/download\ \(5\)\ 1.png");
+    background-color: rgba(1, 1, 1, 0.301);
+    background-size: 720%;
+    background-repeat: no-repeat;
+    height: 100%;
+    // backdrop-filter: blur(20px);
+    // background-opacity: 0.5;
+    z-index: 2;
+    height: 1000px;
+  }
+
+  .about-bg::before {
+    content: "";
+    background-color: #09171db7;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    z-index: 1;
+  }
+}
+
+
+
+
+/* styles.css or your preferred CSS file */
+.background-video {
+  // position: relative;
+  width: 100%;
+  /* Adjust as needed */
+  // height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.background-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Adjust to fit your design */
+}
