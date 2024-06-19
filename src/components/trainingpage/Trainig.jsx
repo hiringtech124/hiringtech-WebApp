@@ -59,9 +59,9 @@ const Trainig = () => {
         setLoading(false)
       },
       prefill: {
-        name: 'Aman Kapil',
-        email: 'amankapil60@gmail.com',
-        contact: '8103075691'
+        name: 'Faizan Hussain',
+        email: 'Faizan@hiringtech.in',
+        contact: '7999788416'
       }
     }
 
