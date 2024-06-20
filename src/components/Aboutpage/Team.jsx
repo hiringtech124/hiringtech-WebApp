@@ -42,6 +42,7 @@ const Team = () => {
                 <p className='text-gray-700 font-medium'>
                   CEO and Director
                 </p>
+                <p className='text-gray-700 font-medium text-[14px] leading-4'>At the pinnacle of corporate mastery, our CEO and Director of Hiring Technology unite leadership with cutting-edge tech for unparalleled success.</p>
               </div>
 
               <Link
