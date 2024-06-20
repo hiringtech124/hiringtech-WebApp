@@ -34,7 +34,7 @@ const Team = () => {
         <div className='flex gap-10 max-md:gap-0 flex-wrap justify-center items-center max-md:justify-center max-md:items-center '>
           <div className='bg-white rounded-lg group shadow-md p-2 max-w-[300px] max-md:max-w-[200px]'>
             <Image src={lavesh} width={300} height={300} alt='hero' />
-            <div className='flex justify-center items-center relative'>
+            <div className='flex justify-center relative'>
               <div>
                 <h3 className='text-[20px] text-[#175574] font-bold my-2'>
                   Lavesh Sethi
