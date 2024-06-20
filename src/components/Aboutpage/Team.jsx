@@ -37,7 +37,7 @@ const Team = () => {
             <div className='flex justify-center relative'>
               <div>
                 <h3 className='text-[20px] text-[#175574] font-bold my-2'>
-                  Lavesh Sethi
+                  Lavesh Jain
                 </h3>
                 <p className='text-gray-700 font-medium'>
                   CEO and Director
