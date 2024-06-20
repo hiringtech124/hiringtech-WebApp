@@ -13,7 +13,7 @@ import Services from '@/components/homepage/Services'
 import Testi2 from '@/components/homepage/Testi2'
 import Tech2 from '@/components/homepage/Tech2'
 
-export default function Home () {
+export default function Home() {
   return (
     <>
       {/* <Home2hero /> */}

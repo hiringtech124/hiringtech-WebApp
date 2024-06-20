@@ -30,7 +30,7 @@ const Team = () => {
           Meet Our Team
         </h2>
         <div className='flex gap-10 max-md:gap-0 flex-wrap justify-center items-center max-md:justify-center max-md:items-center '>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px] group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px] group'>
             <Image src={abhii} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -59,7 +59,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px] group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px] group'>
             <Image src={devesh} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -88,7 +88,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px] group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px] group'>
             <Image src={shruti} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -118,7 +118,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg group shadowmd p-2 max-w-[300px] max-md:max-w-[200px]'>
+          <div className='bgwhite rounded-lg group shadow-md p-2 max-w-[300px] max-md:max-w-[200px]'>
             <Image src={amn} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -150,7 +150,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg group shadowmd p-2 max-w-[300px] max-md:max-w-[200px]'>
+          <div className='bgwhite rounded-lg group shadow-md p-2 max-w-[300px] max-md:max-w-[200px]'>
             <Image src={dev} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -180,7 +180,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px] group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px] group'>
             <Image src={pro} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -209,7 +209,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px]  group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px]  group'>
             <Image src={sudh} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -240,14 +240,14 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px] group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px] group'>
             <Image src={faiz} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
                 <h3 className='text-[20px] text-[#175574] font-bold my-2'>
                   Faizan Hussain
                 </h3>
-                <p className='text-gray-700 font-medium'> Front End Intern </p>
+                <p className='text-gray-700 font-medium'> Front End Developer </p>
               </div>
 
               <Link
@@ -270,7 +270,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] max-md:max-w-[200px] group'>
+          <div className='bgwhite rounded-lg shadow-md p-2 max-w-[300px] max-md:max-w-[200px] group'>
             <Image src={jat} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -299,6 +299,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
+
           {/* <div className='bg-white rounded-lg shadow-md p-2  max-w-[300px] max-md:max-w-[200px]'>
             <Image src={shruti} width={300} className='h-[350px]' alt='hero' />
             <div className='flex justify-between items-center'>
