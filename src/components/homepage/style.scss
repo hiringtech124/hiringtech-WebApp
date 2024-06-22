@@ -149,7 +149,7 @@
 }
 
 .top-bot {
-  animation: slide_to_bott 15s linear infinite;
+  animation: slide_to_bott 10s linear infinite;
 }
 
 @keyframes slide_to_bott {
@@ -162,24 +162,24 @@
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 }
 
 .bot-top {
-  animation: slide_to_topp 15s linear infinite;
+  animation: slide_to_topp 10s linear infinite;
 }
 
 @keyframes slide_to_topp {
   0% {
-    transform: translateY(-50%);
+    transform: translateY(-60%);
   }
 
   50% {
-    transform: translateY(10%);
+    transform: translateY(0%);
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateY(-60%);
   }
 }

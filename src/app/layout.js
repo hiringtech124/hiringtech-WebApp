@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 //   description: 'Hire Good geeks'
 // }
 
-export default function RootLayout ({ children }) {
+export default function RootLayout({ children }) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const lenis = new Lenis()
@@ -26,7 +26,7 @@ export default function RootLayout ({ children }) {
         console.log(e)
       })
 
-      function raf (time) {
+      function raf(time) {
         lenis.raf(time)
         requestAnimationFrame(raf)
       }
@@ -47,8 +47,8 @@ export default function RootLayout ({ children }) {
         </main>
         <Footer />
 
-        <div className='fixed bottom-5 right-10 z-[99999]'>
-          <Link href='whatsapp://send?phone=+918770161528'>
+        {/* <div className='fixed bottom-10 right-[3%] z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
+          <Link href='whatsapp://send?phone=+918770161528'  >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='62'
@@ -74,7 +74,7 @@ export default function RootLayout ({ children }) {
               />
             </svg>
           </Link>
-        </div>
+        </div> */}
         {/* </TransitionProvider> */}
       </body>
     </html>

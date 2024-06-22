@@ -40,13 +40,14 @@ const Header2 = () => {
   }
   return (
     <>
-      {width <= 900 ? (
+      {width <= 768 ? (
         <>
-          <header className='bg-[#fff] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-5 h[100px] rounded-full z-[9990]'>
-            <div className='header flex justify-between gap-20 max-w-7xl mx-auto items-center'>
+          <header className='bg-[#fff] flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full z-[9990]'>
+            <div className='header flex justify-between items-center w-[90%] mx-auto items-center'>
               <div className='logo'>
                 <Link href='/'>
-                  <div className='logobg'></div>
+                  {/* <div className='logobg max-lg:w-[80px]'></div> */}
+                  <Image src={logo} alt='logo' className='w-[90px] max-sm:w-[70px]' />
                 </Link>
               </div>
               <button onClick={hamburger}>
@@ -65,9 +66,8 @@ const Header2 = () => {
               </button>
 
               <div
-                className={`lists flex items-center justify-between flex-col ${
-                  active ? 'active ' : ''
-                }`}
+                className={`lists flex items-center justify-between flex-col ${active ? 'active ' : ''
+                  }`}
               >
                 <nav className='flex gap-6 text-base font-medium text-black items-center flex-col w-1/2 mt-20'>
                   <Link
@@ -144,14 +144,15 @@ const Header2 = () => {
         </>
       ) : (
         // desktop
-        <div className='bg-[#fff] max--[1400px] mx-auto flex gap-5 justify-between items-center w-full text-base font-medium leading-4 text-center text-[#000] max-md:flex-wrap max-md:max-w-full py-6 px-10 wfull mxauto sticky top-0 h[100px] roundedfull z-[9999999999999999990] bg-opacity-50 backdrop-blur-[110.60px]'>
+        <div className='bg-[#fff] w-[90%] mx-auto flex gap-5 justify-between items-center text-base font-medium leading-4 text-center text-[#000] max-md:flex-wrap max-md:max-w-full py-6 px-10  mx-auto sticky top-0 h-[100px] max-lg:h-[80px] rounded-full z-[9999999999999999990] bg-opacity-50 backdrop-blur-[110.60px]'>
           <Link href='/'>
-            <div className='logobg'></div>
+            {/* <div className='logobg'></div> */}
+            <Image src={logo} alt='logo' className='w-[110px] max-xl:w-[90px]' />
           </Link>
-          <div className='flex gap-5 justify-between self-stretch my-auto max-md:flex-wrap'>
-            <Link className='hovertext-[#733e3d]' href='/aboutus'>
+          <div className='flex justify-between text-[18px] max-lg:text-[14px] max-xl:text-[16px] xl:gap-3 lg:gap-1 self-stretch my-auto max-md:flex-wrap'>
+            <Link className='hover:text-[#733e3d]' href='/aboutus'>
               <div className='flex flex-col justify-center'>
-                <div className='justify-center px-6 py-4 rounded-2xl border border-solid border-white hoverbg-black  hoverborder-black max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-6 py-4 max-xl:px-3.5 max-xl:py-3 max-lg:px-2 max-lg:py-1.5 rounded-2xl border border-solid border-white hoverbg-black max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   About Us
                 </div>
               </div>
@@ -167,30 +168,30 @@ const Header2 = () => {
                 </div>
               </div>
             </a> */}
-            <Link className='hovertext-[#733e3d]' href='/services'>
+            <Link className='hover:text-[#733e3d]' href='/services'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-4 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Service
                 </div>
               </div>
             </Link>
-            <Link className='hovertext-[#733e3d]' href='/career'>
+            <Link className='hover:text-[#733e3d]' href='/career'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-4 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Career
                 </div>
               </div>
             </Link>
-            <Link className='hovertext-[#733e3d]' href='/training'>
+            <Link className='hover:text-[#733e3d]' href='/training'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-7 py-3.5 max-xl:px-4 max-xl:py-2.5 max-lg:px-3 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Training
                 </div>
               </div>
             </Link>
-            <Link className='hovertext-[#733e3d]' href='/blog'>
+            <Link className='hover:text-[#733e3d]' href='/blog'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-7 py-3.5 max-xl:px-4.5 max-xl:py-2.5 max-lg:px-2.5 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Insights
                 </div>
               </div>
@@ -198,7 +199,7 @@ const Header2 = () => {
 
             <Link href='/contact'>
               <div className='flex flex-col justify-center self-stretch my-auto'>
-                <div className='justify-center bg-[#D79442] px-9 py-4 rounded-[54px] border-white border-solid border-[0.5px] max-md:px-5 lettl hover:border-[#CC7914] hovertext-[#00557E] hover:bg-[#CC7914] text-[#fff]'>
+                <div className='justify-center bg-[#D79442] px-9 py-4 max-xl:px-4 max-xl:py-2.5 max-lg:px-4 max-lg:py-1.5 rounded-[54px] border-white border-solid border-[0.5px] max-md:px-5 lettl hover:border-[#CC7914] hovertext-[#00557E] hover:bg-[#CC7914] text-[#fff]'>
                   Lets Talk
                 </div>
               </div>
