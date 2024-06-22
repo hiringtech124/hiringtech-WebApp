@@ -5,6 +5,7 @@ import img from './assets/Group 112.png'
 import img2 from './assets/Group 115.png'
 import img3 from './assetss/1.png'
 import img4 from './assetss/2.png'
+import visres from './assetss/visres.png'
 
 import './style.scss'
 const Vision2 = () => {
@@ -62,6 +63,32 @@ const Vision2 = () => {
         </div>
 
 
+      </div>
+      <div className='max-sm:block flex flex-col items-center'>
+        <div className='w-[100%] flex justify-center'>
+          <Image src={visres} alt='res' className='w-[80%]' />
+        </div>
+        <div className='flex justify-center mt-10'>
+          <div className='flex w-[80%]'>
+            <div className=' max-md:w-full'>
+              <h1 className='self-start text-start text-[20px]  font-bold text-[#062B43]  leading-[51.2px] '>
+                Our Mission
+              </h1>
+              <div className='self-start w-[90%] mt-0 text-[14px] leading-5  tracking-tight text-start text-[#175574] '>
+                Our mission is to be the leading provider of transformative
+                education
+                and talent acquisition solutions.
+              </div>
+            </div>
+
+            <Image
+              loading='lazy'
+              src={img4}
+              alt='k'
+              className='w-[50%]'
+            />
+          </div>
+        </div>
       </div>
 
     </>

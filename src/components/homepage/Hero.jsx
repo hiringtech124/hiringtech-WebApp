@@ -49,7 +49,7 @@ const Hero = () => {
                 Contact Us
               </Link>
             </div>
-            <div className='min-[500px]:hidden w-[400px] translate-x-[-25%] mt-5 grid items-center'>
+            <div className='min-[500px]:hidden w-[100%] mt-5 grid items-center'>
               <Image src={hres} className='' alt='resImg' />
             </div>
             <h3 className='justify-start text-[33px] max-xl:text-[28px] max-lg:text-[22px] max-sm:text-[18px] text-[#175574] text-xl font-medium mt-8 max-sm:mt-0 leading-[51.2px]'>
