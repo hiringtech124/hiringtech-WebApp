@@ -16,7 +16,7 @@ const Vision2 = () => {
         <div className='w-[80%] mx-auto'>
           <div className='flex flex-col self-end max-w-full'>
             <div className='flex justify-between items-center'>
-              <div className='flex flex-col pt-6'>
+              <div className='w-[60%] pt-6'>
                 <div className='flex z-10 flex-col items-start px-5 max-md:px-0 pt-1 pb-6 mb-0'>
                   <Image
                     loading='lazy'
@@ -26,7 +26,7 @@ const Vision2 = () => {
                   />
                 </div>
               </div>
-              <div className='flex z-10  flex-col mt-0 max-w-full w-[50%] max-lg:w-[60%] max-md:w-[70%] max-md:mt-0'>
+              <div className='flex z-10  flex-col mt-0  w-[40%] max-lg:w-[60%] max-md:w-[70%] max-md:mt-0'>
                 <h1 className='text-[41px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[25px] text-end font-bold text-[#062B43] leading-[51.2px]'>
                   Our Vision
                 </h1>
@@ -64,7 +64,7 @@ const Vision2 = () => {
 
 
       </div>
-      <div className='max-sm:block flex flex-col items-center'>
+      <div className='sm:hidden flex flex-col items-center'>
         <div className='w-[100%] flex justify-center'>
           <Image src={visres} alt='res' className='w-[80%]' />
         </div>

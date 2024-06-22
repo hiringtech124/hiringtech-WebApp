@@ -15,19 +15,19 @@ import img9 from './assetss/47.png'
 const Services = () => {
   return (
     <>
-      <div className='home-service  max-lg:h-full'>
-        <div className='mx-auto max-w-7xl'>
-          <div className='servidc mb-20  max-sm:p-4'>
-            <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
+      <div className='home-service w-full max-lg:h-full'>
+        <div className='mx-auto w-[80%] max-sm:w-full'>
+          <div className='servidc mb-20 max-sm:mb-5  max-sm:p-4'>
+            <h3 className='self-start text-[#175574] text-xl max-sm:text-[18px] font-bold leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> Services
             </h3>
-            <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+            <h1 className='self-start text-[#062B43] text-[41px] max-sm:text-[28px] font-bold leading-[51.2px]'>
               Our Services
             </h1>
           </div>
-          <div className='flex justify-start items-center gap-4 flexwrap max-lg:justify-center max-lg:h-full max-md:flex-col max-md:p-4'>
+          <div className='flex justify-start items-center gap-4 flex-wrap max-lg:justify-center max-lg:h-full max-md:grid max-md:grid-cols-2 max-md:p-4'>
             <a
-              class='mb-[17px] service-cards w-[27.451%] h[350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
+              class='mb-[17px] service-cards w-[23.451%] h[350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
  bg[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md hover:bordersolid'
               href='/services'
             >
@@ -45,12 +45,12 @@ const Services = () => {
                   <div class="service-heading letter-spacing-4 text-[24px] font-normal font['Graphik'] leading-[28.80px] group-hover:underline grouphover:textwhite">
                     Tech Training
                   </div>
-                  <div class="w[300px] leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                  <div class="w[300px] opacity-80  text-[18px] font-normal  font['Graphik'] leading-normal  max-[1310px]:w-full">
                     Hiring tech service is working as placement consultant
                     service company serving the needs of the client.
                   </div>
                 </div>
-                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] borde borderblack justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
+                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] border border-black justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
                   <div class='w-[31px] h-[21px]  relative  flex-col justify-start items-start flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
@@ -90,7 +90,7 @@ const Services = () => {
               </div>
             </a>
             <a
-              class='mb-[17px] service-cards w-[27.451%] h[350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
+              class='mb-[17px] service-cards w-[23.451%] h[350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
  hoverbg-[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md
  
 '
@@ -114,12 +114,12 @@ const Services = () => {
                   >
                     IT concerns.
                   </div>
-                  <div class="w[300px]  leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                  <div class="w[300px]  leading[150%] opacity-80  text-[18px]  font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
                     We offer comprehensive programs tailored to empower
                     professionals in human resources management.
                   </div>
                 </div>
-                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] borde borderblack justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
+                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] border border-black justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
                   <div class='w-[31px] h-[21px] relative  flex-col justify-start items-start flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
@@ -159,7 +159,7 @@ const Services = () => {
               </div>
             </a>
             <a
-              class='mb-[17px] service-cards w-[27.451%] [350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
+              class='mb-[17px] service-cards w-[23.451%] [350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
   hoverbg-[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full   rounded-md'
               href='/services'
             >
@@ -181,12 +181,12 @@ const Services = () => {
                   >
                     HR training
                   </div>
-                  <div class="w[300px]  leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                  <div class="w[300px]  leading[150%] opacity-80  text-[18px] font-normal  font['Graphik'] leading-normal  max-[1310px]:w-full">
                     In our web development training consultancy, a comprehensive
                     programs designed to equip individuals with the skills.
                   </div>
                 </div>
-                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] borde borderblack justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
+                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] border border-black justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
                   <div class='w-[31px] h-[21px] relative  flex-col justify-start items-start flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
@@ -226,7 +226,7 @@ const Services = () => {
               </div>
             </a>
             <a
-              class='mb-[17px] service-cards w-[27.451%] h[350px] pl-[20px] pr-[10px] py-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md'
+              class='mb-[17px] service-cards w-[23.451%] h[350px] pl-[20px] pr-[10px] py-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md'
               href='/services'
             >
               <div class='justify-center items-center inline-flex  w-full'>
@@ -252,7 +252,7 @@ const Services = () => {
                     service company serving the needs of the clients.
                   </div>
                 </div>
-                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] borde borderblack justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
+                <div class=' arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] border border-black justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all'>
                   <div class='w-[31px] h-[21px] relative  flex-col justify-start items-start flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
