@@ -10,6 +10,7 @@ import paytm from './assetss/paytm.png'
 import techno from './assetss/techno.png'
 import genp from './assetss/genp.png'
 import Link from 'next/link'
+import hres from './assetss/homeres.png'
 
 const Hero = () => {
   return (
@@ -48,7 +49,10 @@ const Hero = () => {
                 Contact Us
               </Link>
             </div>
-            <h3 className='justify-start text-[33px] max-xl:text-[28px] max-lg:text-[22px] max-sm:text-[18px] text-[#175574] text-xl font-medium mt-8 max-sm:mt-4 leading-[51.2px]'>
+            <div className='min-[500px]:hidden w-[140%] mt-5 grid items-center'>
+              <Image src={hres} className='w-[100%] translate-x-[-25%]' alt='resImg' />
+            </div>
+            <h3 className='justify-start text-[33px] max-xl:text-[28px] max-lg:text-[22px] max-sm:text-[18px] text-[#175574] text-xl font-medium mt-8 max-sm:mt-0 leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> We&apos;ve worked with
             </h3>
             <div className='flex gap-10 max-lg:gap-5 mt-5 max-sm:mt-2'>
@@ -58,7 +62,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='flex justify-center max-md:w-full'>
-            <Image src={hero1} className='w-[600px] h-[550px] max-xl:w-[500px] max-xl:h-[450px] max-lg:w-[450px] max-lg:h-[400px] max-sm:w-[300px] max-sm:h-[250px]' alt='hero' />
+            <Image src={hero1} className='w-[600px] h-[550px] max-xl:w-[500px] max-xl:h-[450px] max-lg:w-[450px] max-lg:h-[400px] max-sm:w-[300px] max-sm:h-[280px] max-[499px]:hidden' alt='hero' />
           </div>
         </div>
       </div>

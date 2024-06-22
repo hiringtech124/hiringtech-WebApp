@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
 
-        {/* <div className='fixed bottom-10 right-[3%] z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
+        <div className='fixed bottom-10 right-[3%] z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
           <Link href='whatsapp://send?phone=+918770161528'  >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
               />
             </svg>
           </Link>
-        </div> */}
+        </div>
         {/* </TransitionProvider> */}
       </body>
     </html>
