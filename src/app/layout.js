@@ -47,12 +47,13 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
 
-        <div className='fixed bottom-10 right-[3%] z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
+        <div className='fixed bottom-10 right-10 max-sm:right-[5%] max-sm:bottom-5 z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
           <Link href='whatsapp://send?phone=+918770161528'  >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='62'
               height='62'
+              className='max-sm:w-[50px]'
               viewBox='0 0 62 62'
               fill='none'
             >

@@ -15,7 +15,7 @@ import hres from './assetss/homeres.png'
 const Hero = () => {
   return (
     <>
-      <div className='her-container h-[650px] max-lg:h-full'>
+      <div className='her-container w-full h-[650px] max-lg:h-full'>
         {/* <video
           controls
           preload="none"
@@ -28,11 +28,11 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video> */}
         <div className='hero- flex justify-center mt-10 max-sm:mt-2 gap-30 h-full w-[80%] max-md:w-[100%] max- mx-auto max-md:flex-col max-md:gap-10 max-md:px-4'>
-          <div className='flex flex-col flex-start w-[67%] mt-[50px]  max-xl:mt-[10px] mx-auto max-md:w-full max-md:'>
-            <h1 className='text-[45px] max-xl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl mx-auto text-left text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
+          <div className='flex flex-col flex-start w-[67%] max-sm:w-[90%] mt-[50px]  max-xl:mt-[10px]'>
+            <h1 className='text-[45px] max-xl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl max-md:w-full mx-auto text-left text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
               PIONEERING TOGETHER WE CRAFT TRANSFORMATIVE SUCCESS
             </h1>
-            <p className='text-left max-lg:w-full text-[22px] max-xl:text-[20px] max-lg:text-[14px] max-sm:text-[12px] font-medium mx-auto opacity-85 leading-7 max-lg:leading-5 mt-4 max-sm:mt-2 text-[#175574] '>
+            <p className='text-left max-lg:w-full text-[22px] max-xl:text-[20px] max-lg:text-[14px] max-sm:text-[14px] font-medium mx-auto opacity-85 leading-7 max-lg:leading-5 mt-4 max-sm:mt-2 text-[#175574] '>
               Information Technology Consulting Services IT Consulting services
               integrate new systems, ensure robust cybersecurity, or navigate
               the rapid pace of tech advancements.
@@ -44,13 +44,13 @@ const Hero = () => {
               <Link
                 href='/contact
 '
-                className='px-8 py-3 max-lg:px-6 max-sm:px-3 max-sm:py-2 hover:bg[#8AAAE5] text-[20px] max-lg:text-[16px] max-sm:text-[12px] bg-[#D79442] hover:bg-[#CC7914] text-white hover:text-black rounded-3xl  '
+                className='px-8 py-3 max-lg:px-6 max-sm:px-4 max-sm:py-2 hover:bg[#8AAAE5] text-[20px] max-lg:text-[16px] max-sm:text-[14px] bg-[#D79442] hover:bg-[#CC7914] text-white hover:text-black rounded-3xl  '
               >
                 Contact Us
               </Link>
             </div>
-            <div className='min-[500px]:hidden w-[140%] mt-5 grid items-center'>
-              <Image src={hres} className='w-[100%] translate-x-[-25%]' alt='resImg' />
+            <div className='min-[500px]:hidden w-[400px] translate-x-[-25%] mt-5 grid items-center'>
+              <Image src={hres} className='' alt='resImg' />
             </div>
             <h3 className='justify-start text-[33px] max-xl:text-[28px] max-lg:text-[22px] max-sm:text-[18px] text-[#175574] text-xl font-medium mt-8 max-sm:mt-0 leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> We&apos;ve worked with

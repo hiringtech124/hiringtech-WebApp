@@ -42,12 +42,12 @@ const Header2 = () => {
     <>
       {width <= 768 ? (
         <>
-          <header className='bg-[#fff] flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full z-[9990]'>
+          <header className='bg-[#fff] shadow-lg flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full z-[9990]'>
             <div className='header flex justify-between items-center w-[90%] mx-auto items-center'>
               <div className='logo'>
                 <Link href='/'>
                   {/* <div className='logobg max-lg:w-[80px]'></div> */}
-                  <Image src={logo} alt='logo' className='w-[90px] max-sm:w-[70px]' />
+                  <Image src={logo} alt='logo' className='w-[90px] max-sm:w-[80px]' />
                 </Link>
               </div>
               <button onClick={hamburger}>
@@ -144,10 +144,10 @@ const Header2 = () => {
         </>
       ) : (
         // desktop
-        <div className='bg-[#fff] w-[90%] mx-auto flex gap-5 justify-between items-center text-base font-medium leading-4 text-center text-[#000] max-md:flex-wrap max-md:max-w-full py-6 px-10  mx-auto sticky top-0 h-[100px] max-lg:h-[80px] rounded-full z-[9999999999999999990] bg-opacity-50 backdrop-blur-[110.60px]'>
+        <div className='bg-[#fff] shadow-xl max-sm:shadow-lg w-[100%] mx-auto flex gap-5 justify-between items-center text-base font-medium leading-4 text-center text-[#000] max-md:flex-wrap max-md:max-w-full py-6 px-10  mx-auto sticky top-0 h-[100px] max-lg:h-[80px] rounded-full z-[9999999999999999990] bg-opacity-50 backdrop-blur-[110.60px]'>
           <Link href='/'>
             {/* <div className='logobg'></div> */}
-            <Image src={logo} alt='logo' className='w-[110px] max-xl:w-[90px]' />
+            <Image src={logo} alt='logo' className='w-[110px] max-xl:w-[90px] ' />
           </Link>
           <div className='flex justify-between text-[18px] max-lg:text-[14px] max-xl:text-[16px] xl:gap-3 lg:gap-1 self-stretch my-auto max-md:flex-wrap'>
             <Link className='hover:text-[#733e3d]' href='/aboutus'>

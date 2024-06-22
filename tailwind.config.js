@@ -10,6 +10,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     // rest of the code
+    extend: {
+      fontFamily: {
+        'serif': ['"League Spartan"', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     // rest of the code
