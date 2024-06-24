@@ -333,7 +333,7 @@ const Services = () => {
           </div>
           <div className='grid w-full items-center grid-cols-4 max-lg:grid-cols-2 max-sm:gap-x-2 max-lg:gap-y-10 max-sm:gap-y-5'>
             {data.map((data, index) => (
-              <a className=' p-[20px] max-sm:p-[10px] w-[250px] place-self-center h-[370px] max-xl:w-[200px] max-xl:h-[350px] max-[450px]:w-[150px] max-[450px]:h-[280px]  bg-custom-gradient flex-col items-center gap-5 max-sm:gap-2 inline-flex  text-black hover:shadow-xl transition-all rounded-3xl max-sm:rounded-lg'
+              <a key={index} className=' p-[20px] max-sm:p-[10px] w-[250px] place-self-center h-[370px] max-xl:w-[200px] max-xl:h-[350px] max-[450px]:w-[150px] max-[450px]:h-[280px]  bg-custom-gradient flex-col items-center gap-5 max-sm:gap-2 inline-flex  text-black hover:shadow-xl transition-all rounded-3xl max-sm:rounded-lg'
                 href='/services'>
                 <Image src={data.img} alt='img' />
                 <h1 className="letter-spacing-4 text-[24px] max-xl:text-[22px] max-sm:text-[16px] font-normal hover:underline">{data.title}</h1>
