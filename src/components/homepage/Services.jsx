@@ -13,9 +13,33 @@ import img8 from './assetss/46.png'
 import img9 from './assetss/47.png'
 
 const Services = () => {
+
+  const data = [
+    {
+      img: img6,
+      title: "Tech Training",
+      detail: "In our tech training consultancy, we provide comprehensive programs tailored to the ever-evolving tech landscape. read more"
+    },
+    {
+      img: img7,
+      title: "IT Concerns",
+      detail: "Hiring tech service is working as placement consultant service company serving the needs of the client. read more"
+    },
+    {
+      img: img8,
+      title: "HR training",
+      detail: "We offer comprehensive programs tailored to empower professionals in human resources management. read more"
+    },
+    {
+      img: img9,
+      title: "Web Services",
+      detail: "In our web development training consultancy, a comprehensive programs designed to equip individuals with the skills. read more"
+    }
+  ]
+
   return (
     <>
-      <div className='home-service w-full max-lg:h-full'>
+      {/* <div className='home-service w-full max-lg:h-full'>
         <div className='mx-auto w-[80%] max-sm:w-full'>
           <div className='servidc mb-20 max-sm:mb-5  max-sm:p-4'>
             <h3 className='self-start text-[#175574] text-xl max-sm:text-[18px] font-bold leading-[51.2px]'>
@@ -27,8 +51,7 @@ const Services = () => {
           </div>
           <div className='flex justify-start items-center gap-4 flex-wrap max-lg:justify-center max-lg:h-full max-md:grid max-md:grid-cols-2 max-md:p-4'>
             <a
-              class='mb-[17px] service-cards w-[23.451%] h[350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
- bg[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md hover:bordersolid'
+              class='mb-[17px] service-cards w-[23.451%] p-[20px] flex-col items-start gap-[46.12px] inline-flex  transition-all text-black hover:shadow-xl transition-all max-md:w-full  rounded-md'
               href='/services'
             >
               <div class='justify-center items-center inline-flex w-full'>
@@ -73,6 +96,8 @@ const Services = () => {
                           stroke-linecap='round'
                           stroke-linejoin='round'
                         />
+
+
                       </g>
                       <defs>
                         <clipPath id='clip0_906_953'>
@@ -291,6 +316,30 @@ const Services = () => {
                 </div>
               </div>
             </a>
+          </div>
+        </div>
+      </div> */}
+
+
+      <div className='w-full flex justify-center font-serif'>
+        <div className='w-[80%] max-sm:w-[95%] flex flex-col items-start gap-10'>
+          <div className=''>
+            <h3 className='text-[#175574] text-[20px] font-bold leading-[51.2px]'>
+              <span className='text-[#D79442]'>|</span> Services
+            </h3>
+            <h1 className='text-[#062B43] text-[41px] max-sm:text-[30px] font-bold leading-[51.2px]'>
+              Our Services
+            </h1>
+          </div>
+          <div className='grid w-full items-center grid-cols-4 max-lg:grid-cols-2 max-sm:gap-x-2 max-lg:gap-y-10 max-sm:gap-y-5'>
+            {data.map((data, index) => (
+              <a className=' p-[20px] max-sm:p-[10px] w-[250px] place-self-center h-[370px] max-xl:w-[200px] max-xl:h-[350px] max-[450px]:w-[150px] max-[450px]:h-[280px]  bg-custom-gradient flex-col items-center gap-5 max-sm:gap-2 inline-flex  text-black hover:shadow-xl transition-all rounded-3xl max-sm:rounded-lg'
+                href='/services'>
+                <Image src={data.img} alt='img' />
+                <h1 className="letter-spacing-4 text-[24px] max-xl:text-[22px] max-sm:text-[16px] font-normal hover:underline">{data.title}</h1>
+                <p className='text-center text-[14px] max-sm:text-[12px] max-xl:leading-5'>{data.detail}</p>
+              </a>
+            ))}
           </div>
         </div>
       </div>

@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         'serif': ['"League Spartan"', 'sans-serif'],
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(335.59deg, rgba(29, 7, 77, 0.08) -3.23%, rgba(184, 60, 193, 0.08) 97.93%)',
+      },
     },
   },
   plugins: [
