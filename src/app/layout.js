@@ -9,6 +9,8 @@ import { TransitionProvider } from '@/components/context/TransitionContext'
 import TransitionComponent from '@/components/Transition'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
+import Script from 'next/script'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -36,6 +38,16 @@ export default function RootLayout({ children }) {
 
         <title>Leading IT Consulting & Recruitment Solutions - Hiring Tech</title>
         <meta name="description" content="Discover top-notch IT consulting and recruitment services at Hiring Tech. We offer expert training, talent acquisition, and innovative tech solutions to empower your business. Partner with us to transform your IT landscape." />
+        {/* Google Analytics */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL"></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6TKGW738HL');
+          `}
+        </Script>
       </head>
 
 
@@ -81,3 +93,5 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+
