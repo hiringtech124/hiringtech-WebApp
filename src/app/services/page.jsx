@@ -4,18 +4,21 @@ import Servicepage from '@/components/servicepage/Servicepage'
 import ServiceUpdate from '@/components/servicepage/ServiceUpdate'
 import Web from '@/components/servicepage/Web'
 import React from 'react'
+import ServicesLayout from './layout'
 
 const Services = () => {
   return (
     <>
-      {/* <div>Services</div> */}
-      <div className=''>
-        <Servicepage />
-        {/* <ServiceUpdate /> */}
-        <ItConcern />
-        {/* <Hr />
+      <ServicesLayout>
+        {/* <div>Services</div> */}
+        <div className=''>
+          <Servicepage />
+          {/* <ServiceUpdate /> */}
+          <ItConcern />
+          {/* <Hr />
         <Web /> */}
-      </div>
+        </div>
+      </ServicesLayout>
     </>
   )
 }

@@ -17,6 +17,7 @@ import Chose from '@/components/trainingpage/Chose'
 import Meeting from '@/components/trainingpage/Meeting'
 import Trainig from '@/components/trainingpage/Trainig'
 import TrainingHero from '@/components/trainingpage/TrainingHero'
+import TrainingLayout from './layout'
 
 // export default function Component() {
 //   return (
@@ -24,12 +25,14 @@ import TrainingHero from '@/components/trainingpage/TrainingHero'
 const page = () => {
   return (
     <>
-      <div className='max-w-8xl mx-auto'>
-        <TrainingHero />
-        <Choose />
-        <Trainig />
-        {/* <Meeting /> */}
-      </div>
+      <TrainingLayout>
+        <div className='max-w-8xl mx-auto'>
+          <TrainingHero />
+          <Choose />
+          <Trainig />
+          {/* <Meeting /> */}
+        </div>
+      </TrainingLayout>
     </>
   )
 }

@@ -42,7 +42,7 @@ const Header2 = () => {
     <>
       {width <= 768 ? (
         <>
-          <header className='bg-[#fff] shadow-lg flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full z-[9990]'>
+          <header className='bg-[#fff] shadow-lg flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full max-sm:rounded-3xl z-[9990]'>
             <div className='header flex justify-between items-center w-[90%] mx-auto items-center'>
               <div className='logo'>
                 <Link href='/'>

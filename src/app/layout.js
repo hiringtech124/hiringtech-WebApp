@@ -9,7 +9,6 @@ import { TransitionProvider } from '@/components/context/TransitionContext'
 import TransitionComponent from '@/components/Transition'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
-import { metadata } from './metadata'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,9 +33,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+
+        <title>Leading IT Consulting & Recruitment Solutions - Hiring Tech</title>
+        <meta name="description" content="Discover top-notch IT consulting and recruitment services at Hiring Tech. We offer expert training, talent acquisition, and innovative tech solutions to empower your business. Partner with us to transform your IT landscape." />
       </head>
+
+
+
       <body className={inter.className}>
         <Header2 />
 
