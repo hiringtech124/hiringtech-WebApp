@@ -9,13 +9,9 @@ import { TransitionProvider } from '@/components/context/TransitionContext'
 import TransitionComponent from '@/components/Transition'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
+import { metadata } from './metadata'
 
 const inter = Inter({ subsets: ['latin'] })
-
-// export const metadata = {
-//   title: 'Hiring Tech',
-//   description: 'Hire Good geeks'
-// }
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -37,18 +33,20 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang='en'>
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
       <body className={inter.className}>
         <Header2 />
 
         <main className='max-w7xl mx-auto er'>
-          {/* <TransitionComponent> */}
           {children}
-          {/* </TransitionComponent> */}
         </main>
         <Footer />
 
         <div className='fixed bottom-10 right-10 max-sm:right-[5%] max-sm:bottom-5 z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
-          <Link href='whatsapp://send?phone=+918770161528'  >
+          <Link href='whatsapp://send?phone=+918770161528'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='62'
@@ -76,7 +74,6 @@ export default function RootLayout({ children }) {
             </svg>
           </Link>
         </div>
-        {/* </TransitionProvider> */}
       </body>
     </html>
   )

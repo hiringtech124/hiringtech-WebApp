@@ -10,7 +10,7 @@ import paytm from './assetss/paytm.png'
 import techno from './assetss/techno.png'
 import genp from './assetss/genp.png'
 import Link from 'next/link'
-import hres from './assetss/homeres.png'
+import hres from './assetss/home1.png'
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
         </video> */}
         <div className='hero- flex justify-center mt-10 max-sm:mt-2 gap-30 h-full w-[80%] max-md:w-[100%] max- mx-auto max-md:flex-col max-md:gap-10 max-md:px-4'>
           <div className='flex flex-col flex-start w-[67%] max-sm:w-[90%] mt-[50px]  max-xl:mt-[10px]'>
-            <h1 className='text-[45px] max-xl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl max-md:w-full mx-auto text-left text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
+            <h1 className='text-[45px] maxl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl max-md:w-full mx-auto text-left text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
               PIONEERING TOGETHER WE CRAFT TRANSFORMATIVE SUCCESS
             </h1>
             <p className='text-left max-lg:w-full text-[22px] max-xl:text-[20px] max-lg:text-[14px] max-sm:text-[14px] font-medium mx-auto opacity-85 leading-7 max-lg:leading-5 mt-4 max-sm:mt-2 text-[#175574] '>
@@ -49,7 +49,7 @@ const Hero = () => {
                 Contact Us
               </Link>
             </div>
-            <div className='min-[500px]:hidden w-[100%] mt-5 grid items-center'>
+            <div className='min-[500px]:hidden flex justify-center w-[100%] mt-5 grid items-center'>
               <Image src={hres} className='' alt='resImg' />
             </div>
             <h3 className='justify-start text-[33px] max-xl:text-[28px] max-lg:text-[22px] max-sm:text-[18px] text-[#175574] text-xl font-medium mt-8 max-sm:mt-0 leading-[51.2px]'>
@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='flex justify-center max-md:w-full'>
-            <Image src={hero1} className='w-[600px] h-[550px] max-xl:w-[500px] max-xl:h-[450px] max-lg:w-[450px] max-lg:h-[400px] max-sm:w-[300px] max-sm:h-[280px] max-[499px]:hidden' alt='hero' />
+            <Image src={hero1} className='w-[600px] h-[550px] max-xl:w-[500px] max-xl:h-[450px] max-lg:w-[450px] max-lg:h-[400px] max-[499px]:hidden' alt='hero' />
           </div>
         </div>
       </div>
