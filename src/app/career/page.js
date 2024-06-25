@@ -4,16 +4,19 @@ import Dummy from '@/components/careerpage/Dummy'
 import JobsPage from '@/components/careerpage/JobsPage'
 import Whyus from '@/components/careerpage/Whyus'
 import React from 'react'
+import CareerLayout from './layout'
 
 const Career = () => {
   return (
     <>
-      {/* \<div>Career</div> */}
-      <CareerHero />
-      {/* <Accordian/> */}
-      <Whyus />
-      <JobsPage />
-      {/* <Dummy /> */}
+      <CareerLayout>
+        {/* \<div>Career</div> */}
+        <CareerHero />
+        {/* <Accordian/> */}
+        <Whyus />
+        <JobsPage />
+        {/* <Dummy /> */}
+      </CareerLayout>
     </>
   )
 }

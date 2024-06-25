@@ -1,10 +1,13 @@
 import Techf from "@/components/bloginner/Techf";
 import React from "react";
+import Blog4Layout from "./layout";
 
 const page = () => {
   return (
     <>
-    <Techf/>
+      <Blog4Layout>
+        <Techf />
+      </Blog4Layout>
     </>
   );
 };

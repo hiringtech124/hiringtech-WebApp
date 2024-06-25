@@ -2,12 +2,15 @@ import Employee from "@/components/Hrpage/Employee";
 import Hr from "@/components/Hrpage/Hr";
 
 import React from "react";
+import HreeLayout from "./layout";
 
 const page = () => {
   return (
     <>
-      {/* <Employee /> */}
-      <Hr/>
+      <HreeLayout>
+        {/* <Employee /> */}
+        <Hr />
+      </HreeLayout>
     </>
   );
 };
