@@ -49,9 +49,9 @@ const PlacementSlide = () => {
                     </Link>
                     <Link href='/placements' className='md:hidden cursor-pointer'>
                         <div className='w-full relative'>
-                            <Image src={imgres} className='w-full h-[800px] max-sm:h-[420px]' alt='res image' />
+                            <Image src={imgres} className='w-full h-[800px] max-sm:h-[620px] max-[550px]:h-[520px] max-[460px]:h-[420px]' alt='res image' />
                             <div className=''>
-                                <div className='flex justify-end pr-5 max-sm:pr-0 max-sm:pl-2 w-full absolute top-[5%]'>
+                                <div className='flex justify-end pr-5 max-sm:pl-2 w-full absolute top-[5%]'>
                                     <h2 className='text-[30px] max-sm:text-[22px] font-bold text-[#062B43]'>Hiring Tech Setting Records!</h2>
                                 </div>
                                 <div className='absolute top-[50%] flex flex-col gap-5 max-sm:gap-3'>
@@ -59,19 +59,19 @@ const PlacementSlide = () => {
                                     <div className='w-full flex justify-center'>
                                         <div className='bg-[F7F9EB] w-[90%] flex justify-center gap-10 max-sm:gap-2'>
                                             <div className='flex flex-col items-center gap-1 max-lg:gap-1'>
-                                                <Image src={img1} className='w-[200px]' alt="fadfd" />
+                                                <Image src={img1} className='w-[200px] max-[460px]:h-[84px]' alt="fadfd" />
                                                 <h1 className='text-[#062B43] text-[20px] max-sm:text-[12px] font-bold'>Emily Parker</h1>
-                                                <p className='text-[#062B43] text-[18px] max-sm:text-[10px]'>Rs. 15 Lacs</p>
+                                                <p className='text-[#062B43] text-[18px] max-sm:text-[10px] leading-3'>Rs. 15 Lacs</p>
                                             </div>
                                             <div className='flex flex-col items-center gap-1 max-lg:gap-1'>
-                                                <Image src={img1} className='w-[200px]' alt="fadfd" />
+                                                <Image src={img1} className='w-[200px] max-[460px]:h-[84px]' alt="fadfd" />
                                                 <h1 className='text-[#062B43] text-[20px] max-sm:text-[12px] font-bold'>Emily Parker</h1>
-                                                <p className='text-[#062B43] text-[18px] max-sm:text-[10px]'>Rs. 15 Lacs</p>
+                                                <p className='text-[#062B43] text-[18px] max-sm:text-[10px] leading-3'>Rs. 15 Lacs</p>
                                             </div>
                                             <div className='flex flex-col items-center gap-1 max-lg:gap-1'>
-                                                <Image src={img1} className='w-[200px]' alt="fadfd" />
+                                                <Image src={img1} className='w-[200px] max-[460px]:h-[84px]' alt="fadfd" />
                                                 <h1 className='text-[#062B43] text-[20px] max-sm:text-[12px] font-bold'>Emily Parker</h1>
-                                                <p className='text-[#062B43] text-[18px] max-sm:text-[10px]'>Rs. 15 Lacs</p>
+                                                <p className='text-[#062B43] text-[18px] max-sm:text-[10px] leading-3'>Rs. 15 Lacs</p>
                                             </div>
                                         </div>
                                     </div>
