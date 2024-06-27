@@ -12,13 +12,13 @@ export async function POST(req, res) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "amankapil60@gmail.com",
-        pass: "czxrbthlorqlfxkt",
+        user: "hussainfaizan1379@gmail.com",
+        pass: "nrnsoguehdkdwejt",
       },
     });
     const mailData = {
       from: email,
-      to: "aman@hiringtech.in",
+      to: "hr@hiringtech.in",
       subject: "New Resume Submission",
       text: `Name: ${bodyreq.name}\nLastName: ${bodyreq.lastname}\nEmail: ${bodyreq.email}\nMessage: ${bodyreq.message}`,
     };

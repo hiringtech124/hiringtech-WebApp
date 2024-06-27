@@ -3,12 +3,12 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header/Header'
 import Header2 from '@/components/Header/Header2'
-import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
 import { TransitionProvider } from '@/components/context/TransitionContext'
 import TransitionComponent from '@/components/Transition'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
+import Footer from '@/components/placementPage/footer/Footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -60,8 +60,8 @@ export default function RootLayout({ children }) {
         <main className='max-w7xl mx-auto er'>
           {children}
         </main>
+        {/* <Footer /> */}
         <Footer />
-
         <div className='fixed bottom-10 right-10 max-sm:right-[5%] max-sm:bottom-5 z-[9999999999999999999999999999999999999999999999999999999999999999999999999]'>
           <Link href='whatsapp://send?phone=+918770161528'>
             <svg

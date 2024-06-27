@@ -73,9 +73,8 @@ const Blog2 = () => {
                 {tabs.map((tab, index) => (
                   <li
                     key={tab.id}
-                    className={`mb-5 text-lg cursor-pointer ${
-                      selectedTab === index ? 'font-bold' : ''
-                    }`}
+                    className={`mb-5 text-lg cursor-pointer ${selectedTab === index ? 'font-bold' : ''
+                      }`}
                     onClick={() => handleTabClick(index)}
                   >
                     {selectedTab === index ? (
@@ -119,9 +118,9 @@ const Blog2 = () => {
           </div>
         </section>
 
-        <h1 className='font-normal text-[64px] tracking-tight leading-[57px] my-[100px]  max-md:mt-[20px] max-sm:mt-[10px] ml-[50px] max-lg:text-[55px] max-md:text-[40px] max-sm:text-[30px] '>
+        <h2 className='font-normal text-[64px] tracking-tight leading-[57px] my-[100px]  max-md:mt-[20px] max-sm:mt-[10px] ml-[50px] max-lg:text-[55px] max-md:text-[40px] max-sm:text-[30px] '>
           Articles
-        </h1>
+        </h2>
         <div className='blog-g'>
           <div
             className='w-full flex flex-wrap  gap-[15px]  max-lg:gap-y-[50px] justify-center items-center max-w-7xl mx-auto

@@ -1,0 +1,13 @@
+/* .bgimg{
+    background-image: url("./assets/herobg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.imgshape {
+    width: 100%;
+    height: auto; 
+    border-radius: 20px 20px 20px 0; 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 80%);
+  } */

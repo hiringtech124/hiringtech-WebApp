@@ -9,9 +9,9 @@ const Stream = () => {
         <div className='max-w-[1240px] mx-auto relative'>
           <div className='max-xl:flex max-xl:flex-wrap gap-20 max-md:px-4'>
             <div className='servidc mb20 mt-10'>
-              <h1 className='self-start text-[#062B43] text-[55px] font-bold leading-[51.2px]'>
+              <h2 className='self-start text-[#062B43] text-[55px] font-bold leading-[51.2px]'>
                 Streamlined IT Solutions
-              </h1>
+              </h2>
             </div>
             <div className='flex flex-col'>
               <div className=' max-xl:inset-0 border-[#D79442] border-[3px] mt-10 boxone w-[975px] max-lg:w-full p-3 b[#abe1f8b0] rounded-[10px]  max-xl:relative'>
@@ -72,9 +72,9 @@ const Stream = () => {
                     </svg>
                   </div>
 
-                  <h1 className='head text-[28px] text-[#036A9D] font-bold'>
+                  <h2 className='head text-[28px] text-[#036A9D] font-bold'>
                     Comprehensive IT Consultancy Services:
-                  </h1>
+                  </h2>
                 </div>
 
                 <div className='pera mt-5 '>
@@ -144,9 +144,9 @@ const Stream = () => {
                     </svg>
                   </div>
 
-                  <h1 className='head text-[28px] text-[#036A9D] font-bold'>
+                  <h2 className='head text-[28px] text-[#036A9D] font-bold'>
                     Best performances
-                  </h1>
+                  </h2>
                 </div>
 
                 <div className='pera mt-5 '>
@@ -217,9 +217,9 @@ const Stream = () => {
                     </svg>
                   </div>
 
-                  <h1 className='head text-[28px] text-[#036A9D] font-bold'>
+                  <h2 className='head text-[28px] text-[#036A9D] font-bold'>
                     Save time
-                  </h1>
+                  </h2>
                 </div>
 
                 <div className='pera mt-5 '>

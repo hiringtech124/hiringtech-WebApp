@@ -27,9 +27,9 @@ const Vision2 = () => {
                 </div>
               </div>
               <div className='flex z-10  flex-col mt-0  w-[40%] max-lg:w-[60%] max-md:w-[70%] max-md:mt-0'>
-                <h1 className='text-[41px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[25px] text-end font-bold text-[#062B43] leading-[51.2px]'>
+                <h2 className='text-[41px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[25px] text-end font-bold text-[#062B43] leading-[51.2px]'>
                   Our Vision
-                </h1>
+                </h2>
                 <div className='mt-2 pb-2 text-[27px] max-lg:leading-6 max-xl:text-[24px] max-lg:text-[20px] max-md:text-[16px] text-end tracking-tight text-[#175574]'>
                   Our vision is to empower individuals
                   worldwide through accessible
@@ -41,9 +41,9 @@ const Vision2 = () => {
             <div className='translate-y-[-18%]'>
               <div className='flex justify-center items-center '>
                 <div className='w-[50%] max-md:w-full'>
-                  <h1 className='self-start text-start mt-16 text-[41px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[25px] font-bold text-[#062B43]  leading-[51.2px] '>
+                  <h2 className='self-start text-start mt-16 text-[41px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[25px] font-bold text-[#062B43]  leading-[51.2px] '>
                     Our Mission
-                  </h1>
+                  </h2>
                   <div className='self-start w-[90%] mt-0 mb-2.5 text-[27px] max-xl:text-[24px] max-lg:text-[20px] max-md:text-[16px] tracking-tight text-start text-[#175574] max-sm:text-[20px]'>
                     Our mission is to be the leading provider of transformative
                     education
@@ -71,9 +71,9 @@ const Vision2 = () => {
         <div className='flex justify-center mt-10'>
           <div className='flex w-[80%]'>
             <div className=' max-md:w-full'>
-              <h1 className='self-start text-start text-[20px]  font-bold text-[#062B43]  leading-[51.2px] '>
+              <h2 className='self-start text-start text-[20px]  font-bold text-[#062B43]  leading-[51.2px] '>
                 Our Mission
-              </h1>
+              </h2>
               <div className='self-start w-[90%] mt-0 text-[14px] leading-5  tracking-tight text-start text-[#175574] '>
                 Our mission is to be the leading provider of transformative
                 education

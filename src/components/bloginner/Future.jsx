@@ -43,9 +43,9 @@ const Future = () => {
               the fascinating world of quantum computing and explore its
               transformative potential.
             </div>
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               1. Quantum Computing: A Leap into the Unknown
-            </h1>
+            </h2>
             <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
               Quantum computing represents a fundamental departure from
               classical computing, harnessing the principles of quantum
@@ -57,9 +57,9 @@ const Future = () => {
               technology holds the key to solving some of the most complex
               problems in science, medicine, finance, and beyond.
               <br /> <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 2. Quantum Supremacy: Pushing the Limits of Computational Power
-              </h1>
+              </h2>
               In October 2019, Google claimed to have achieved quantum
               supremacy—the moment when a quantum computer performs a task that
               is practically impossible for classical computers to replicate.
@@ -72,10 +72,10 @@ const Future = () => {
               quantum research and development.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 3. Quantum Algorithms: Unraveling the Mysteries of Optimization
                 and Simulation
-              </h1>
+              </h2>
               One of the most promising applications of quantum computing lies
               in the realm of optimization and simulation. From optimizing
               supply chains and financial portfolios to simulating complex
@@ -87,9 +87,9 @@ const Future = () => {
               faster, more efficient problem-solving.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 4. Quantum Security: Fortifying the Foundations of Cybersecurity
-              </h1>
+              </h2>
               In an increasingly interconnected world, cybersecurity has never
               been more important. Quantum computing has the potential to
               disrupt traditional cryptographic methods by rendering many of
@@ -114,9 +114,9 @@ const Future = () => {
               <br />
             </div>
 
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               Conclusion
-            </h1>
+            </h2>
             <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
               As we stand on the brink of a quantum revolution, the
               possibilities are endless. From solving complex optimization

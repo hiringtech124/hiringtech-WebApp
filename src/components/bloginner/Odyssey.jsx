@@ -41,9 +41,9 @@ const Odyssey = () => {
               marketing, exploring the untold tales of creativity and ingenuity
               that shape our digital world.
             </div>
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               1. Retail: Crafting Experiences in the Digital Marketplace
-            </h1>
+            </h2>
             <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
               In the bustling bazaars of retail, where commerce and culture
               collide, technology emerges as the architect of a new consumer
@@ -56,9 +56,9 @@ const Odyssey = () => {
               and engaging shopping experience, every transaction a testament to
               the power of technology to transform the way we buy and sell.
               <br /> <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 2. Entertainment: Captivating Audiences in the Digital Theater
-              </h1>
+              </h2>
               Amidst the shimmering lights of the entertainment industry, where
               dreams take flight and imagination knows no bounds, technology
               emerges as the maestro of a new era of storytelling. Behold
@@ -72,9 +72,9 @@ const Odyssey = () => {
               and sound that transcends the boundaries of reality.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 3. Hospitality: Transforming Experiences in the Digital Retreat
-              </h1>
+              </h2>
               In the tranquil sanctuaries of hospitality, where wanderers find
               rest and travelers become storytellers, technology emerges as the
               guardian of a new era of hospitality. Envision booking platforms,
@@ -87,9 +87,9 @@ const Odyssey = () => {
               transcends time and space.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 4. Real Estate: Redefining Spaces in the Digital Landscape
-              </h1>
+              </h2>
               In the ever-changing vistas of real estate, where dreams take
               shape and homes become havens, technology emerges as the architect
               of a new era of property exploration. Behold virtual tours, like
@@ -102,9 +102,9 @@ const Odyssey = () => {
               perfect place to call home.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 5. Travel: Embarking on Digital Expeditions
-              </h1>
+              </h2>
               In the boundless horizons of travel, where adventures beckon and
               wanderlust knows no bounds, technology emerges as the navigator of
               a new era of exploration. Envision travel apps, like compasses
@@ -117,9 +117,9 @@ const Odyssey = () => {
               <br />
             </div>
 
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               Conclusion
-            </h1>
+            </h2>
             <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
               As we journey through the digital seas of innovation, let us
               embrace the transformative power of technology to shape our world

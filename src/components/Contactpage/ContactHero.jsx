@@ -32,9 +32,9 @@ const ContactHero = () => {
   return (
     <>
       <section className='contact-hero '>
-        <h1 className='contact-hero-h1'>
+        <h2 className='contact-hero-h1'>
           Got any queries? Feel free to connect with us!
-        </h1>
+        </h2>
 
         <div className='flex justify-center mt-20 gap-20 items-start max-lg:flex-wrap max-lg:justify-center max-w-7xl mx-auto'>
           <div className='address-div2  w-[60%] max-md:w-full'>
@@ -106,7 +106,7 @@ const ContactHero = () => {
           {/* <h1 className='address-head'>Office</h1> */}
           <section className='our-contact '>
             <div className='contacts-info justify-start items-start'>
-              <h1 className='contact-head'>Contact details</h1>
+              <h2 className='contact-head'>Contact details</h2>
               <div className='contact-details flexcol justify-center items-center'>
                 <div className='bg-[#fff] p-5 flex flex-col justify-center gap-4 items-center rounded-2xl'>
                   <svg

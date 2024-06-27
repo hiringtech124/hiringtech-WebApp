@@ -44,10 +44,10 @@ const Techf = () => {
               everything in between. Let's set sail on this adventure and
               discover the wonders that await us in the digital landscape.
             </div>
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               1: The Rise of Virtual Reality: Immersive Experiences in the
               Digital Age
-            </h1>
+            </h2>
             <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
               Step into the realm of virtual reality, where the boundaries
               between the physical and digital worlds blur into existence. From
@@ -57,10 +57,10 @@ const Techf = () => {
               education, and beyond. Join us as we dive deep into the virtual
               realm and unlock the secrets of this groundbreaking technology.
               <br /> <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 2. The Power of Biotechnology: Transforming Healthcare and
                 Beyond
-              </h1>
+              </h2>
               Explore the frontiers of biotechnology, where science and
               technology converge to unlock the secrets of life itself. From
               gene editing and personalized medicine to bioinformatics and
@@ -71,10 +71,10 @@ const Techf = () => {
               humanity.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 3. Cryptocurrency Chronicles: Navigating the World of Digital
                 Currency
-              </h1>
+              </h2>
               Venture into the realm of cryptocurrency, where digital assets and
               blockchain technology are reshaping the landscape of finance and
               economics. From Bitcoin and Ethereum to decentralized finance
@@ -86,10 +86,10 @@ const Techf = () => {
               online.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 4. The Promise of Quantum Computing: Unlocking the Power of the
                 Quantum Realm
-              </h1>
+              </h2>
               Peer into the quantum realm, where the laws of physics take on a
               surreal and mind-bending form. From quantum computers and
               cryptography to quantum teleportation and entanglement, we'll
@@ -99,10 +99,10 @@ const Techf = () => {
               frontier and uncover the mysteries of this cutting-edge technology
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 5. The Future of Mobility: Navigating the Road to Autonomous
                 Vehicles
-              </h1>
+              </h2>
               Embark on a journey into the future of transportation, where
               autonomous vehicles and electric mobility are reshaping the way we
               move and commute. From self-driving cars and flying taxis to
@@ -114,9 +114,9 @@ const Techf = () => {
               <br />
             </div>
 
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               Conclusion
-            </h1>
+            </h2>
             <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
               As we journey through the digital seas of innovation, let us
               embrace the transformative power of technology to shape our world

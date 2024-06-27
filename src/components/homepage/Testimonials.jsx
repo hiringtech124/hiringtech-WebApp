@@ -20,24 +20,24 @@ const Testimonials = () => {
   return (
     <>
       <div className='w-full visionbg'>
-        <div className='testiminilas max-w-7xl mx-auto pt-20'>
+        <div className='testiminilas w-[80%] max-sm:w-[90%] mx-auto pt-20'>
           {/* <h2 className=" text-[#733e3d] text-3xl font-bold mb-4 max-lg:text-center">
           </h2> */}
           <h2 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
             <span className='text-[#D79442]'>|</span> Testimonials
           </h2>
 
-          <div className='servidc mb-20  max-sm:p-4'>
-            <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+          <div className='servidc mb-20  max-sm:p-0'>
+            <h2 className='self-start text-[#062B43] text-[41px] max-sm:text-[24px] font-bold leading-[51.2px]'>
               Client Testimonials
-            </h1>
-            <h3 className='self-start text-[#175574] text-xl font-bold leading-[23.2px]'>
+            </h2>
+            <h3 className='self-start text-[#175574] text-xl max-sm:text-[16px] font-bold leading-[23.2px]'>
               Discover what our client had to say about their experience working
               with us.
             </h3>
           </div>
         </div>
-        <div className='flx max-w-7xl mx-auto p-10'>
+        <div className='flx w-[80%] mx-auto px-5'>
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
@@ -118,11 +118,7 @@ const Testimonials = () => {
                     Landing a position at Houseeazy through Hiring Tech's
                     support was a career milestone. With a 9.5 LPA package,
                     their personalized guidance and advanced technology
-                    streamlined the process seamlessly. The comprehensive
-                    training module prepared me thoroughly for my role,
-                    providing valuable technical skills and industry insights.
-                    Surrounded by talented peers, I'm excited to pursue my
-                    career goals confidently.
+                    streamlined the process seamlessly.
                   </div>
                   {/* <div className="self-end mt-20 text-8xl text-teal-900 max-md:mt-10 max-md:text-4xl">
                     “

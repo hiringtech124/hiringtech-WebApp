@@ -12,6 +12,7 @@ import Vision from '@/components/homepage/Vision'
 import Services from '@/components/homepage/Services'
 import Testi2 from '@/components/homepage/Testi2'
 import Tech2 from '@/components/homepage/Tech2'
+import PlacementSlide from '@/components/homepage/placementSlide/PlacementSlide'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       {/* <Service2 /> */}
       <Services />
       <Clients />
+      <PlacementSlide />
 
       <section className='relative'>
         <Testimonials />

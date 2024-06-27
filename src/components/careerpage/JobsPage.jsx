@@ -304,9 +304,9 @@ const JobsPage = () => {
     <>
       <div className='bgcareer bg-[#FFF7F7] pt-20'>
         <div className='container mx-auto p-4 max-w-6xl mb-20 visionbg'>
-          <h1 className='text-4xl font-bold mb-4 text-[#062b43]'>
+          <h2 className='text-4xl font-bold mb-4 text-[#062b43]'>
             Job Listings
-          </h1>
+          </h2>
           <input
             type='text'
             placeholder='Filter by title, location, or tag'

@@ -43,9 +43,9 @@ const Chain = () => {
               on a journey to explore the untapped potential of blockchain and
               its transformative impact on the future of technology.
             </div>
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               1. Decentralization: The Cornerstone of Blockchain Innovation
-            </h1>
+            </h2>
             <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
               At the heart of blockchain technology lies the concept of
               decentralization—a distributed ledger that is maintained by a
@@ -57,10 +57,10 @@ const Chain = () => {
               with data and information, putting power back in the hands of
               individuals and communities.
               <br /> <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 2. Supply Chain Revolution: Enhancing Transparency and
                 Traceability
-              </h1>
+              </h2>
               One of the most promising applications of blockchain is in supply
               chain management, where it has the potential to revolutionize the
               way goods are tracked, traced, and verified throughout the supply
@@ -72,10 +72,10 @@ const Chain = () => {
               empowering them to make informed purchasing decisions.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 3. Healthcare Transformation: Securing Patient Data and
                 Improving Outcomes
-              </h1>
+              </h2>
               In the healthcare industry, data security and privacy are of
               paramount importance. Blockchain offers a solution to these
               challenges by providing a secure and immutable record of patient
@@ -88,9 +88,9 @@ const Chain = () => {
               the way we approach healthcare.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 4. Democratic Innovation: Revolutionizing Voting Systems
-              </h1>
+              </h2>
               In an age of digital misinformation and electoral fraud, trust in
               democratic institutions is more important than ever. Blockchain
               offers a solution to these challenges by providing a secure and
@@ -115,9 +115,9 @@ const Chain = () => {
               <br />
             </div>
 
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               Conclusion
-            </h1>
+            </h2>
             <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
               As we journey into the uncharted territories of blockchain
               technology, the possibilities are endless. From supply chain

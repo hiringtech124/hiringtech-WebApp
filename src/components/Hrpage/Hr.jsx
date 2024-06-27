@@ -4,7 +4,7 @@ const Hr = () => {
   return (
     <>
       <div className="max-w-lg   mx-auto mt-20 mb-10">
-        <h3 className="text-2xl font-bold text-center tracking-wide">Employee Details</h3>
+        <h1 className="text-2xl font-bold text-center tracking-wide">Employee Details</h1>
       </div>
       <div className="flex gap-10 justify-center items-center flex-wrap my-20">
         <div className="w-full max-w-lg rounded-lg border border-gray-200 my20 dark:border-gray-800  mxauto">

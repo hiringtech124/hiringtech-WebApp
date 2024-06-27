@@ -27,9 +27,9 @@ const Tech2 = () => {
                 <h3 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
                   <span className='text-[#D79442]'>|</span> Technologies
                 </h3>
-                <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+                <h2 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
                   Technology we serve
-                </h1>
+                </h2>
               </div>
             </div>
 
@@ -221,9 +221,9 @@ const Tech2 = () => {
                 <h3 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
                   <span className='text-[#D79442]'>|</span> Technologies
                 </h3>
-                <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+                <h2 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
                   Technology we serve
-                </h1>
+                </h2>
               </div>
             </div>
 

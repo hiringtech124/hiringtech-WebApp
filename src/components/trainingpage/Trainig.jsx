@@ -775,7 +775,7 @@ const Trainig = () => {
 
 export default Trainig
 
-function CheckCircleIcon (props) {
+function CheckCircleIcon(props) {
   return (
     <svg
       {...props}

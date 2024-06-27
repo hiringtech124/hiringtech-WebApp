@@ -327,16 +327,16 @@ const Services = () => {
             <h3 className='text-[#175574] text-[20px] font-bold leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> Services
             </h3>
-            <h1 className='text-[#062B43] text-[41px] max-sm:text-[30px] font-bold leading-[51.2px]'>
+            <h2 className='text-[#062B43] text-[41px] max-sm:text-[30px] font-bold leading-[51.2px]'>
               Our Services
-            </h1>
+            </h2>
           </div>
           <div className='grid w-full items-center grid-cols-4 max-lg:grid-cols-2 max-sm:gap-x-2 max-lg:gap-y-10 max-sm:gap-y-5'>
             {data.map((data, index) => (
               <a key={index} className=' p-[20px] max-sm:p-[10px] w-[250px] place-self-center h-[370px] max-xl:w-[200px] max-xl:h-[350px] max-[450px]:w-[140px] max-[450px]:h-[280px]  bg-custom-gradient flex-col items-center gap-5 max-sm:gap-2 inline-flex  text-black hover:shadow-xl transition-all rounded-3xl max-sm:rounded-lg'
                 href='/services'>
                 <Image src={data.img} alt='img' />
-                <h1 className="letter-spacing-4 text-[#062B43] text-[24px] max-xl:text-[22px] max-sm:text-[16px] font-bold hover:underline">{data.title}</h1>
+                <h2 className="letter-spacing-4 text-[#062B43] text-[24px] max-xl:text-[22px] max-sm:text-[16px] font-bold hover:underline">{data.title}</h2>
                 <p className='text-center text-[14px] max-sm:text-[12px] max-sm:leading-4 max-xl:leading-5'>{data.detail}</p>
               </a>
             ))}

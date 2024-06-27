@@ -14,9 +14,9 @@ const Choose = () => {
             <h3 className='self-start text-left text-[#062B43] text-xl font-bold leading-[51.2px]'>
               Why Choose us
             </h3>
-            <h1 className='self-start text-left text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+            <h2 className='self-start text-left text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
               Dive into Online Courses on diverse subject.
-            </h1>
+            </h2>
           </div>
 
           <div className='flex flex-wrap mt-10 items-center justify-center gap-10 max-md:h-full'>
@@ -96,9 +96,9 @@ const Choose = () => {
                 </svg>
               </div>
               <div className='riht'>
-                <h1 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
+                <h2 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
                   Progress Tracking and Certifications
-                </h1>
+                </h2>
                 <p className='text-[#175574] text-[20px] leading-[26px] text-left'>
                   Provide features to track user progress, such as completion
                   percentage module wise performance achievements.
@@ -169,9 +169,9 @@ const Choose = () => {
                 </svg>
               </div>
               <div className='riht'>
-                <h1 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
+                <h2 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
                   Accessibility and Convenience.
-                </h1>
+                </h2>
                 <p className='text-[#175574] text-[20px] leading-[26px] text-left'>
                   Provide the flexibility to learn anytime, anywhere, making
                   education accessible to a wider audience.
@@ -254,9 +254,9 @@ const Choose = () => {
                 </svg>
               </div>
               <div className='riht'>
-                <h1 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
+                <h2 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
                   Diverse Course Selection.
-                </h1>
+                </h2>
                 <p className='text-[#175574] text-[20px] leading-[26px] text-left'>
                   Offer a vast range of subjects and topics to choose from
                   allowing users to explore their interests, acquire new skills.
@@ -329,9 +329,9 @@ const Choose = () => {
                 </svg>
               </div>
               <div className='riht'>
-                <h1 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
+                <h2 className='text-[#175574] text-[22px] text-left font-semibold  leading-[26px]'>
                   Interactive Learning Experience
-                </h1>
+                </h2>
                 <p className='text-[#175574] text-[20px] leading-[26px] text-left'>
                   Attractive elements like you quizzes, exercises, and
                   discussion forums, and enhancing the learning experience.

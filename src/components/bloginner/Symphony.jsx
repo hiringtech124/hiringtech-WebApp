@@ -45,10 +45,10 @@ const Symphony = () => {
               digital canvas and unveil the secrets behind orchestrating a truly
               unforgettable brand experience.
             </div>
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               1. The Canvas of Creativity: Redefining Website Design as Digital
               Artistry
-            </h1>
+            </h2>
             <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
               Gone are the days when websites were mere static pages on the
               internet; today, they serve as dynamic canvases for brand
@@ -60,10 +60,10 @@ const Symphony = () => {
               stories, evoke emotions, and leave a lasting impression on every
               visitor.
               <br /> <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 2. The Alchemy of Engagement: Crafting Digital Marketing
                 Campaigns That Resonate
-              </h1>
+              </h2>
               In the ever-evolving world of digital marketing, success lies in
               the ability to create meaningful connections with audiences in a
               crowded digital landscape. Our approach to digital marketing is
@@ -75,10 +75,10 @@ const Symphony = () => {
               results for our clients.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 3. The Symphony Unfolds: Integrating Website Design and Digital
                 Marketing for Maximum Impact
-              </h1>
+              </h2>
               Like instruments in an orchestra, website design and digital
               marketing work in harmony to create a symphony of brand expression
               that resonates with audiences on a profound level. Our integrated
@@ -90,10 +90,10 @@ const Symphony = () => {
               customer journey and drive meaningful engagement
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 4. The Art of Brand Orchestration: Crafting a Unique Identity in
                 a Crowded Digital Landscape
-              </h1>
+              </h2>
               In a world where attention is the most valuable currency, standing
               out amidst the noise requires a unique blend of creativity and
               strategy. Our agency specializes in crafting bespoke brand
@@ -109,9 +109,9 @@ const Symphony = () => {
               <br />
             </div>
 
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               Conclusion
-            </h1>
+            </h2>
             <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
               In the digital age, where every interaction is an opportunity to
               make a lasting impression, the importance of website design and

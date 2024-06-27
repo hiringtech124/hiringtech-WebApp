@@ -8,9 +8,9 @@ const Whyus = () => {
       <div className='whye\s py-20 bgcareer'>
         <div className='max-w-6xl mx-auto flex justify-center items-center gap-20 max-md:flex-wrap max-md:p-4'>
           <div className='flex flex-col w-[50%] max-md:w-full'>
-            <h1 className='text-[36px]'>
+            <h2 className='text-[36px]'>
               Why you Should Join Our Awesome Team
-            </h1>
+            </h2>
             <p className='text-[14px] font-bold'>
               We want to feel like home when you are working & for that we have
               curated a great set of benefits for you.

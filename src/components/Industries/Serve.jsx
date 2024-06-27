@@ -12,9 +12,9 @@ const Serve = () => {
                 <span className='text-[#D79442]'>|</span> Our Expertise Across
                 Industries
               </h3>
-              <h1 className='self-start uppercase text-[#062B43] text-left text-xl font-bold leading-[51.2px]'>
+              <h2 className='self-start uppercase text-[#062B43] text-left text-xl font-bold leading-[51.2px]'>
                 Industry Overview
-              </h1>
+              </h2>
             </div>
             {/* </div> */}
             <div className='iconssg flex py-8 flex-wrap justify-end items-center gap-6 text-white max-md:gap-5 max-md:flex-wrap max-md:justify-center'>

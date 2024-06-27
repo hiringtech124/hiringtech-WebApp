@@ -43,10 +43,10 @@ const Digital = () => {
               and groundbreaking ideas that are shaping the future of our
               digital world.
             </div>
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               1. Innovating the Workplace: Technology's Impact on the Future of
               Work
-            </h1>
+            </h2>
             <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
               From remote collaboration tools to artificial intelligence-driven
               automation, the workplace is undergoing a seismic shift propelled
@@ -57,9 +57,9 @@ const Digital = () => {
               ever-changing landscape of work in the digital age and uncover the
               opportunities and challenges that lie ahead.
               <br /> <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 2. Tech for Good: Harnessing Innovation to Drive Social Impact
-              </h1>
+              </h2>
               In a world facing unprecedented challenges, technology emerges as
               a powerful force for positive change. In this blog, we'll shine a
               spotlight on the innovative solutions and groundbreaking
@@ -71,10 +71,10 @@ const Digital = () => {
               for all.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 3. The Future of Retail: Navigating Digital Disruption in the
                 Age of E-Commerce
-              </h1>
+              </h2>
               In an era defined by digital disruption, the retail landscape is
               undergoing a profound transformation. In this blog, we'll delve
               into the latest trends and technologies shaping the future of
@@ -85,10 +85,10 @@ const Digital = () => {
               increasingly online world.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 4. Cybersecurity in the Digital Age: Safeguarding Data in an Era
                 of Connectivity
-              </h1>
+              </h2>
               As our world becomes increasingly interconnected, cybersecurity
               has never been more critical. In this blog, we'll take a deep dive
               into the latest cybersecurity threats and trends, from ransomware
@@ -99,10 +99,10 @@ const Digital = () => {
               safeguard against cyber threats in the digital age.
               <br />
               <br />
-              <h1 className='text-[30px] text-[#175574] font-semibold'>
+              <h2 className='text-[30px] text-[#175574] font-semibold'>
                 5: The Power of Data: Unlocking Insights in the Age of Big Data
                 and Analytics
-              </h1>
+              </h2>
               In the age of big data, information is power. In this blog, we'll
               explore how organizations are harnessing the power of data
               analytics to drive informed decision-making and gain valuable
@@ -116,9 +116,9 @@ const Digital = () => {
               <br />
             </div>
 
-            <h1 className='text-[30px] text-[#175574] font-semibold'>
+            <h2 className='text-[30px] text-[#175574] font-semibold'>
               Conclusion
-            </h1>
+            </h2>
             <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
               As we journey through the digital seas of innovation, let us
               embrace the transformative power of technology to shape our world

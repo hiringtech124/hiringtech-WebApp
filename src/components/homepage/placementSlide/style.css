@@ -1,0 +1,8 @@
+.image {
+    background-image: url('../assetss/placeres.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}

@@ -14,12 +14,12 @@ const Heroexpert = () => {
         <div class='w-full max-w-7xl mx-auto '>
           <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify- items-start h-[648px] flex-col justify-between">
             <div className=' mt-5 w-[54%] max-md:w-full'>
-              <h3 className='self-start text-[#175574] text-xl text-left font-bold leading-[51.2px]'>
+              <h1 className='self-start text-[#175574] text-xl text-left font-bold leading-[51.2px]'>
                 <span className='text-[#D79442]'>|</span> Meet the Experts
-              </h3>
-              <h1 className='self-start text-[#062B43] text-left text-[41px] font-bold leading-[51.2px]'>
-                With our experts, your goals are within reach
               </h1>
+              <h2 className='self-start text-[#062B43] text-left text-[41px] font-bold leading-[51.2px]'>
+                With our experts, your goals are within reach
+              </h2>
             </div>
           </div>
         </div>
