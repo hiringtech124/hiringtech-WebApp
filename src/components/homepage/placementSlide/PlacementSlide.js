@@ -10,7 +10,7 @@ const PlacementSlide = () => {
     return (
         <>
             <div className='w-full font-serif h-full flex justify-center py-10'>
-                <div className='w-[80%] max-md:w-[90%] flex flex-col gap-5 text-[#175574]'>
+                <div className='w-[90%] max-md:w-[90%] flex flex-col gap-5 text-[#175574]'>
                     <div>
                         <h2 className='self-start text-[#062B43] text-xl max-xl:text-[18px] max-sm:text-[] font-bold leading-[51.2px]'>
                             <span className='text-[#D79442]'>|</span> PLACEMENTS
