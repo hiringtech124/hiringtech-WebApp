@@ -104,7 +104,7 @@ const Header2 = () => {
                     className='hovertext-[#733e3d] text-white'
                     href='/blog'
                   >
-                    Insights
+                    Blogs
                   </Link>
                   {/* <Link
                     onClick={hamburger}
@@ -192,7 +192,7 @@ const Header2 = () => {
             <Link className='hover:text-[#733e3d]' href='/blog'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
                 <div className='justify-center px-7 py-3.5 max-xl:px-4.5 max-xl:py-2.5 max-lg:px-2.5 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
-                  Insights
+                  Blogs
                 </div>
               </div>
             </Link>
