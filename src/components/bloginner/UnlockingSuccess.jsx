@@ -8,9 +8,9 @@ import Image from 'next/image'
 const Success = () => {
     return (
         <>
-            <div className='w-full max-w-7xl mx-auto h-full pb-20 relative bgwhite  max-md:h-full'>
+            <div className='w-[80%] mx-auto h-full pb-20 relative bgwhite  max-md:h-full'>
                 <Image
-                    className='w-[90%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left[150.62px] top-[456.12px rounded-[21.75px] max-md:mt-20'
+                    className='w-[100%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left[150.62px] top-[456.12px rounded-[21.75px] max-md:mt-20'
                     src={img}
                     alt='7 Advantages of Using a Recruitment Agency'
                 />
