@@ -27,7 +27,7 @@ const Hero = () => {
           <source src={herok} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <div className='hero- flex justify-center mt-10 max-sm:mt-2 gap-30 h-full w-[80%] max-md:w-[100%] max- mx-auto max-md:flex-col max-md:gap-10 max-md:px-4'>
+        <div className='hero- flex justify-center mt-10 max-sm:mt-2 gap-30 h-full w-[90%] max-md:w-[100%] max- mx-auto max-md:flex-col max-md:gap-10 max-md:px-4'>
           <div className='flex flex-col flex-start w-[67%] max-sm:w-full mt-[50px]  max-xl:mt-[10px]'>
             <h1 className='text-[45px] maxl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl max-md:w-full mx-auto text-left text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
               PIONEERING TOGETHER WE CRAFT TRANSFORMATIVE SUCCESS

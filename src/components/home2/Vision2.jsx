@@ -12,8 +12,8 @@ const Vision2 = () => {
   return (
     <>
 
-      <div className='max-sm:hidden bg[#20AFED] font-serif px-2 flex flex-col self-center p10 pb-20 mt28 w-full mx-auto backdrop-blur-[110.60px] visin-bg'>
-        <div className='w-[80%] mx-auto'>
+      <div className='max-sm:hidden bg[#20AFED] font-serif px-2 flex flex-col self-center w-full mx-auto backdrop-blur-[110.60px] visin-bg'>
+        <div className='w-[90%] mx-auto'>
           <div className='flex flex-col self-end max-w-full'>
             <div className='flex justify-between items-center'>
               <div className='w-[60%] pt-6'>
@@ -66,10 +66,10 @@ const Vision2 = () => {
       </div>
       <div className='sm:hidden flex flex-col items-center'>
         <div className='w-[100%] flex justify-center'>
-          <Image src={visres} alt='res' className='w-[80%]' />
+          <Image src={visres} alt='res' className='w-[90%]' />
         </div>
         <div className='flex justify-center mt-10'>
-          <div className='flex w-[80%]'>
+          <div className='flex w-[90%]'>
             <div className=' max-md:w-full'>
               <h2 className='self-start text-start text-[20px]  font-bold text-[#062B43]  leading-[51.2px] '>
                 Our Mission

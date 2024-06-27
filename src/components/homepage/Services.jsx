@@ -322,7 +322,7 @@ const Services = () => {
 
 
       <div className='w-full flex justify-center font-serif'>
-        <div className='w-[80%] max-sm:w-[95%] flex flex-col items-start gap-10'>
+        <div className='w-[90%] flex flex-col items-start gap-10 max-sm:gap-5'>
           <div className=''>
             <h3 className='text-[#175574] text-[20px] font-bold leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> Services

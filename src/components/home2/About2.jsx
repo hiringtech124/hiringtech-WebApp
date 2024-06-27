@@ -5,8 +5,8 @@ import img from './assetss/3.png'
 const About2 = () => {
   return (
     <>
-      <div className='flex font-serif justify-center items-center px16 py-20 w-full max-xl:w-[90%] text-white max-lg:h-full   max-md:px-5 max-md:max-w-full aboutbg gap-28 max-lg:gap-10 max-sm:gap-0 max-md:flex-col max-w-7xl mx-auto'>
-        <div className='right'>
+      <div className='flex font-serif justify-center items-center py-20 max-sm:py-10 w-[90%] text-white max-lg:h-full   max-md:px-0 gap-28 max-lg:gap-10 max-sm:gap-0 max-md:flex-col mx-auto'>
+        <div className=''>
           <Image src={img} alt='m' />
         </div>
         <div className='flex flex-col mt-5 w-[50%] max-md:w-full max-w[1200px] max-md:max-w-full'>
