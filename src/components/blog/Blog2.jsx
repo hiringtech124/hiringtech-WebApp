@@ -12,6 +12,7 @@ import bgl3 from './assets/bl3.png'
 import bgl4 from './assets/17.png'
 import bgl5 from './assets/16.png'
 import imgs from './assets/29.png'
+import blog7 from './assets/blog7.png'
 
 import './blog.scss'
 import Blogcards from './Blogcards'
@@ -227,6 +228,23 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
                     Join us as we explore the latest trends, emerging
                     technologies, and groundbreaking ideas that are shaping the
                     future of our digital world
+                  </p>
+                  <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
+                    Read more
+                  </h4>
+                </div>
+              </div>
+            </Link>
+            <Link href='/blog/unlocking-success'>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn7'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 07</span>
+                  <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
+                    Unlocking Success
+                  </h3>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
+                    Navigating today&apos;s job market, especially in IT and tech, can be challenging.
                   </p>
                   <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
                     Read more
