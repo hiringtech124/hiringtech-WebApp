@@ -10,6 +10,7 @@ const TechExportHiringProcess = () => {
     return (
         <div className="w-full flex justify-center">
             <div className="w-[90%] mx-auto px-4 py-8">
+                {/* sd,nd */}
                 <h1 className="text-3xl font-bold mb-4">Tech Export Hiring Process</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="flex items-start p-4 bg-white rounded-lg shadow w-full">

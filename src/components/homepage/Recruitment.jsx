@@ -22,6 +22,7 @@ const ITRecruitmentServices = () => {
                             <p>We start by comprehensively understanding your business requirements and the specific skills and attributes you are looking for in a candidate.</p>
                         </div>
                     </div>
+                    {/* sdmfd */}
                     <div className="flex items-start p-4 bg-white rounded-lg shadow w-full">
                         <Image src={Tickblack} alt="Check Icon" width={35} height={35} className="mr-4" />
                         <div>
