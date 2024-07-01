@@ -60,9 +60,9 @@ function Footer() {
                             <div className='flex max-xl:flex-col gap-2 mr-[15px]'>
                                 <h1 className='max-sm:w-[200px]'>Copyright © 2020 Hiring Tech, All rights reserved</h1>
                                 <ul className='flex max-md:flex-col gap-10 max-xl:gap-5'>
-                                    <Link href="/"><li><span className='border-l-4 border-[#175574] border-solid pr-[20px]'></span>Privacy Policy</li></Link>
-                                    <Link href="/"><li>Terms & Conditions</li></Link>
-                                    <Link href="/"><li>Site Map</li></Link>
+                                    <Link href="/privacy-policy"><li><span className='border-l-4 border-[#175574] border-solid pr-[20px]'></span>Privacy Policy</li></Link>
+                                    {/* <Link href="/"><li>Terms & Conditions</li></Link>
+                                    <Link href="/"><li>Site Map</li></Link> */}
                                 </ul>
                             </div>
                             <div className='flex max-md:flex-col max-md:items-center  items-center gap-8'>
