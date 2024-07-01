@@ -13,12 +13,15 @@ import Services from '@/components/homepage/Services'
 import Testi2 from '@/components/homepage/Testi2'
 import Tech2 from '@/components/homepage/Tech2'
 import PlacementSlide from '@/components/homepage/placementSlide/PlacementSlide'
+import ITRecruitmentServices from '@/components/homepage/Recruitment'
+import TechExportHiringProcess from '@/components/homepage/Techexport'
 
 export default function Home() {
   return (
     <>
       {/* <Home2hero /> */}
       <Hero />
+      <ITRecruitmentServices />
       {/* <Trail /> */}
       <Vision2 />
       <About2 />
@@ -26,6 +29,7 @@ export default function Home() {
       <Services />
       <Clients />
       <PlacementSlide />
+      <TechExportHiringProcess />
 
       <section className='relative'>
         <Testimonials />
