@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import icon1 from './assets/icon1.png'
-import icon2 from './assets/icon2.png'
-import icon3 from './assets/icon3.png'
-import icon4 from './assets/icon4.png'
-import icon5 from './assets/icon5.png'
+import icon1 from './assets/iconone.png'
+import icon2 from './assets/icontwo.png'
+import icon3 from './assets/iconthree.png'
+import icon4 from './assets/iconfour.png'
+import icon5 from './assets/iconfive.png'
 // sdjfdj
 
 const elements = [
