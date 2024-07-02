@@ -27,14 +27,14 @@ const TrainingHero = () => {
               Trainings
             </h3>
             <h1 className='self-start text-left text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
-              Access the world’s best Learning courses With Hiring tech
+              Access the world&apos;s best Learning courses With Hiring tech
             </h1>
           </div>
 
           <div className='w-[80%] overflow-hidden absolute bottom-10 -right-[25%] max-md:right-0 max-md:w-full max-md:bottom-20'>
             <h3 className='self-start text-left text-[#062B43] ml-20 mt-10 text-xl font-bold leading-[51.2px] max-md:m-0'>
               <span className='text-[#D79442]'>| </span>
-              We’ve worked with
+              We&apos;ve worked with
             </h3>
             <div className=' flex gap-16 flexcol w[50%]  justify-center items-center max-md:gap-8 top-bot'>
               <div>

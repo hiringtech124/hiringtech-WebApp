@@ -15,7 +15,7 @@ import hres from './assetss/home2.png'
 const Hero = () => {
   return (
     <>
-      <div className='her-container w-full h-[650px] max-lg:h-full'>
+      <div className='her-container w-full flex justify-center h-[650px] max-lg:h-full'>
         {/* <video
           controls
           preload="none"
@@ -27,23 +27,22 @@ const Hero = () => {
           <source src={herok} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <div className='hero- flex justify-center mt-10 max-sm:mt-2 gap-30 h-full w-[90%] max-md:w-[100%] max- mx-auto max-md:flex-col max-md:gap-10 max-md:px-4'>
-          <div className='flex flex-col flex-start w-[67%] max-sm:w-full mt-[50px]  max-xl:mt-[10px]'>
-            <h1 className='text-[45px] maxl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl max-md:w-full mx-auto text-left text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
-              PIONEERING TOGETHER WE CRAFT TRANSFORMATIVE SUCCESS
+        <div className='hero- flex  mt-10 max-sm:mt-2 gap-30 h-full w-[90%] max-md:w-[100%] max- mx-auto max-md:flex-col max-md:gap-10 max-md:px-4'>
+          <div className='flex flex-col w-[67%] max-sm:w-full mt-[50px]  max-xl:mt-[10px]'>
+            <h1 className='text-[41px] max-xl:text-[32px] max-lg:text-[22px] max-sm:text-[19px]  max-w-6xl max-md:w-full text-[#062B43] font-bold tracking-tight leading-[50px] max-lg:leading-[40px] max-sm:leading-[30px]'>
+              We are
+              India&apos;s Premier Agency
+              for IT <span className='text-[#D79442]'>Recruitment</span>
             </h1>
-            <p className='text-left max-lg:w-full text-[22px] max-xl:text-[20px] max-lg:text-[14px] max-sm:text-[14px] font-medium mx-auto opacity-85 leading-7 max-lg:leading-5 mt-4 max-sm:mt-2 text-[#175574] '>
-              Information Technology Consulting Services IT Consulting services
-              integrate new systems, ensure robust cybersecurity, or navigate
-              the rapid pace of tech advancements.
+            <p className='text-left max-lg:w-full text-[22px] max-xl:text-[18px] max-lg:text-[14px] max-sm:text-[14px] font-medium mx-auto opacity-85 leading-7 max-lg:leading-5 mt-4 max-sm:mt-2 text-[#175574] '>
+              Excel in your tech hiring with our expert IT consulting services. Join forces with India's top IT recruitment agency as we specialize in placing the best tech talent in key roles. Choose us for our unmatched expertise and dedication to your success.
             </p>
             {/* <p className="text-white font-medium text-[18px] mt-5">
               By way of us you can achieve what you want.
             </p> */}
             <div className='mt-10 max-sm:mt-6'>
               <Link
-                href='/contact
-'
+                href='/contact'
                 className='px-8 py-3 max-lg:px-6 max-sm:px-4 max-sm:py-2 hover:bg[#8AAAE5] text-[20px] max-lg:text-[16px] max-sm:text-[14px] bg-[#D79442] hover:bg-[#CC7914] text-white hover:text-black rounded-3xl  '
               >
                 Contact Us
