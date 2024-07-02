@@ -1,10 +1,11 @@
+import Script from "next/script";
 
 export default function HreeLayout({ children }) {
     return (
         <>
             <head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
-                <script dangerouslySetInnerHTML={
+                <Script id="inline-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
+                <Script id="inline-script" dangerouslySetInnerHTML={
                     {
                         __html: `
             window.dataLayer = window.dataLayer || [];

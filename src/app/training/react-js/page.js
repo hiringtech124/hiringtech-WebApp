@@ -11,7 +11,7 @@ const page = () => {
     return (
         <div>
             <Hero />
-            {/* <Choose /> */}
+            <Choose />
             <CourseCurriculam />
             <Placement />
             <Opportunities />

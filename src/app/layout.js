@@ -9,6 +9,7 @@ import TransitionComponent from '@/components/Transition'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
 import Footer from '@/components/placementPage/footer/Footer'
+import Script from "next/script";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -38,8 +39,8 @@ export default function RootLayout({ children }) {
         <title>Leading IT Consulting & Recruitment Solutions - Hiring Tech</title>
         <meta name="description" content="Discover top-notch IT consulting and recruitment services at Hiring Tech. We offer expert training, talent acquisition, and innovative tech solutions to empower your business. Partner with us to transform your IT landscape." />
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
-        <script dangerouslySetInnerHTML={
+        <Script id="inline-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
+        <Script id="inline-script" dangerouslySetInnerHTML={
           {
             __html: `
             window.dataLayer = window.dataLayer || [];
