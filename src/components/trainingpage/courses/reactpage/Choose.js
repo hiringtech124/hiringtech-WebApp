@@ -44,7 +44,7 @@ const Choose = () => {
                 <div className='w-[90%] max-xl:w-full flex flex-wrap gap-20 max-xl:gap-10 max-sm:gap-5 max-sm:pt-5   justify-center pt-10'>
                     {elements.map((element, index) => (
                         <div key={index} className='p-5 bg-[#fff] flex flex-col gap-5 max-xl:gap-2 shadow-xl rounded-xl items-center'>
-                            <Image src={element.icon} alt={`icon-${index + 1}`} className='max-xl:w-[60px]' />
+                            {/* <Image src={element.icon} alt={`icon-${index + 1}`} className='max-xl:w-[60px]' /> */}
                             <h3 className='text-[#252B42] text-[20px] max-xl:text-[18px] max-md:text-[16px] self-center font-medium'>{element.title}</h3>
                             <p className='text-[14px] text-[#175574] self-center text-center max-xl:leading-4 w-[250px] max-xl:w-[200px]'>{element.description}</p>
                         </div>
