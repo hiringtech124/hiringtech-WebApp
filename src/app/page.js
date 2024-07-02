@@ -28,7 +28,7 @@ export default function Home() {
       {/* <Service2 /> */}
       <Services />
       <Clients />
-      <PlacementSlide />
+      {/* <PlacementSlide /> */}
       <TechExportHiringProcess />
 
       <section className='relative'>

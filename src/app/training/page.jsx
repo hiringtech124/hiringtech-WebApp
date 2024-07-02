@@ -18,6 +18,7 @@ import Meeting from '@/components/trainingpage/Meeting'
 import Trainig from '@/components/trainingpage/Trainig'
 import TrainingHero from '@/components/trainingpage/TrainingHero'
 import TrainingLayout from './layout'
+import AllCourses from '@/components/trainingpage/allCourses'
 
 // export default function Component() {
 //   return (
@@ -29,7 +30,8 @@ const page = () => {
         <div className='max-w-8xl mx-auto'>
           <TrainingHero />
           <Choose />
-          <Trainig />
+          {/* <Trainig /> */}
+          <AllCourses />
           {/* <Meeting /> */}
         </div>
       </TrainingLayout>
