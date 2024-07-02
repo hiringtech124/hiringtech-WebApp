@@ -36,10 +36,6 @@ const Enroll = () => {
         const data = await fetch('/api/razorpay', { method: 'POST' }).then(t =>
             t.json()
         )
-
-        // const data = await axios.post("/api/contact").then((t) => {
-        //   console.log(t);
-        // });
         console.log(data)
         var options = {
             key: 'rzp_test_WjOtHCtWT76ZeX', // Enter the Key ID generated from the Dashboard
