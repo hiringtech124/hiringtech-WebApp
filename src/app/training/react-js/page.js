@@ -1,4 +1,4 @@
-import Choose from '@/components/trainingpage/courses/reactpage/Choose'
+import Choose1 from '@/components/trainingpage/courses/reactpage/Choose'
 import CourseCurriculam from '@/components/trainingpage/courses/reactpage/CourseCurriculam'
 import Enroll from '@/components/trainingpage/courses/reactpage/Enroll'
 import FaqComponent from '@/components/trainingpage/courses/reactpage/FAQ'
@@ -11,7 +11,7 @@ const page = () => {
     return (
         <div>
             <Hero />
-            <Choose />
+            <Choose1 />
             <CourseCurriculam />
             <Placement />
             <Opportunities />
