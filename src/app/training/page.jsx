@@ -25,6 +25,7 @@ import Herotrain from '@/components/trainingpage/Herotrain';
 import Choose2 from '@/components/trainingpage/Choose2';
 import Institute from '@/components/trainingpage/Institute';
 import Testimonials from '@/components/homepage/Testimonials';
+import Review from '@/components/placementPage/reviews/Review';
 
 
 // export default function Component() {
@@ -43,7 +44,8 @@ const Page = () => {
           <Choose2 />
           <Institute />
           <Testimonials />
-          <Enjoyable />
+          {/* <Enjoyable /> */}
+          <Review />
         </div>
       </TrainingLayout>
     </>

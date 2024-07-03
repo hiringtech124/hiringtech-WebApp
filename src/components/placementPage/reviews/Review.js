@@ -5,9 +5,9 @@ import star from './assets/star.png'
 function Review() {
     return (
         <>
-            <div className='w-full h-full flex justify-between max-md:flex-wrap pb-[50px]'>
+            <div className='w-full h-full flex justify-between max-md:flex-wrap pt-20 pb-[50px]'>
                 <div className='h-full relative pt-[40px] max-sm:pt-[20px] py-[50px]'>
-                    <div className='max-sm:hidden bg-[#062B43] w-[150px] h-[150px] max-md:h-[100px] rounded-3xl absolute left-[-130px] max-sm:left-[-135px]'></div>
+                    {/* <div className='max-sm:hidden bg-[#062B43] w-[150px] h-[150px] max-md:h-[100px] rounded-3xl absolute left-[-130px] max-sm:left-[-135px]'></div> */}
                     <div className='flex items-center'>
                         <div className='flex flex-col gap-5 max-xl:gap-3 max-sm:gap-2 w-[600px] max-xl:w-[450px] max-lg:w-[350px] max-sm:w-[300px] text-[#062B43] pl-[100px] max-xl:pl-[60px] max-sm:pl-[10px]'>
                             <h1 className='text-[28px] max-xl:text-[26px] max-lg:text-[20px] max-md:text-[22px] max-sm:text-[16px]'><span className='border-l-4 border-[#D79442] border-solid  pr-[20px] max-sm:pr-2'></span>Learn smarter . not harder</h1>
