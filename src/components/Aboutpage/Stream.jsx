@@ -1,22 +1,22 @@
 import Image from 'next/image'
 import React from 'react'
-import img from './asstes/miso.png'
+import image from './asstes/miso.png'
 
 const Stream = () => {
   return (
     <>
-      <div className=' h-[1000px] max-xl:h-full pt-20'>
-        <div className='max-w-[1240px] mx-auto relative'>
-          <div className='max-xl:flex max-xl:flex-wrap gap-20 max-md:px-4'>
-            <div className='servidc mb20 mt-10'>
-              <h2 className='self-start text-[#062B43] text-[55px] font-bold leading-[51.2px]'>
+      <div className='min-h-screen pt-20'>
+        <div className='max-w-[1240px] mx-auto'>
+          <div className='flex flex-wrap gap-8 px-4'>
+            <div className='mb-10 mt-10 w-full'>
+              <h2 className='text-[#062B43] text-[55px] font-bold leading-[51.2px] sm:text-[40px]'>
                 Streamlined IT Solutions
               </h2>
             </div>
-            <div className='flex flex-col'>
-              <div className=' max-xl:inset-0 border-[#D79442] border-[3px] mt-10 boxone w-[975px] max-lg:w-full p-3 b[#abe1f8b0] rounded-[10px]  max-xl:relative'>
-                <div className='head flex gap-4 '>
-                  <div className='svg'>
+            <div className='flex flex-col w-full'>
+              <div className='border-[#D79442] border-3 mt-10 w-full p-3 bg-[#abe1f8b0] rounded-2xl'>
+                <div className='flex gap-4'>
+                  <div className='w-14 h-14'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='57'
@@ -72,12 +72,12 @@ const Stream = () => {
                     </svg>
                   </div>
 
-                  <h2 className='head text-[28px] text-[#036A9D] font-bold'>
+                  <h2 className='text-[28px] text-[#036A9D] font-bold'>
                     Comprehensive IT Consultancy Services:
                   </h2>
                 </div>
 
-                <div className='pera mt-5 '>
+                <div className='mt-5'>
                   <p className='text-[26px] text-[#175574]'>
                     Hiring Tech IT Services offers advanced IT consultancy
                     services catering to both IT and Non-IT industries across
@@ -86,9 +86,9 @@ const Stream = () => {
                   </p>
                 </div>
               </div>
-              <div className=' max-xl:inset-0 border-[#D79442] border-[3px] mt-10 boxone w-[975px] p-3 b[#abe1f8b0] rounded-[10px]  max-xl:relative max-lg:w-full'>
-                <div className='head flex gap-4 '>
-                  <div className='svg'>
+              <div className='border-[#D79442] border-3 mt-10 w-full p-3 bg-[#abe1f8b0] rounded-2xl'>
+                <div className='flex gap-4'>
+                  <div className='w-14 h-14'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='57'
@@ -144,12 +144,12 @@ const Stream = () => {
                     </svg>
                   </div>
 
-                  <h2 className='head text-[28px] text-[#036A9D] font-bold'>
+                  <h2 className='text-[28px] text-[#036A9D] font-bold'>
                     Best performances
                   </h2>
                 </div>
 
-                <div className='pera mt-5 '>
+                <div className='mt-5'>
                   <p className='text-[26px] text-[#175574]'>
                     At the core of our mission is the optimization of your time,
                     physical vitality, and mental energy, enabling you to
@@ -159,9 +159,9 @@ const Stream = () => {
                 </div>
               </div>
 
-              <div className=' max-xl:inset-0 border-[#D79442] border-[3px] mt-10 boxone w-[975px] p-3 b[#abe1f8b0] rounded-[10px]  max-xl:relative max-lg:w-full'>
-                <div className='head flex gap-4 '>
-                  <div className='svg'>
+              <div className='border-[#D79442] border-3 mt-10 w-full p-3 bg-[#abe1f8b0] rounded-2xl'>
+                <div className='flex gap-4'>
+                  <div className='w-14 h-14'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='57'
@@ -217,12 +217,12 @@ const Stream = () => {
                     </svg>
                   </div>
 
-                  <h2 className='head text-[28px] text-[#036A9D] font-bold'>
+                  <h2 className='text-[28px] text-[#036A9D] font-bold'>
                     Save time
                   </h2>
                 </div>
 
-                <div className='pera mt-5 '>
+                <div className='mt-5'>
                   <p className='text-[26px] text-[#175574]'>
                     We take care of the entire process, from meal preparation to
                     packaging and doorstep delivery, allowing you to save both
