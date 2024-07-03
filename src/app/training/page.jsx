@@ -21,6 +21,10 @@ import TrainingLayout from './layout';
 import Courses from '@/components/trainingpage/Courses';
 import AllCourses from '@/components/trainingpage/allCourses';
 import Enjoyable from '@/components/trainingpage/Enjoyable';
+import Herotrain from '@/components/trainingpage/Herotrain';
+import Choose2 from '@/components/trainingpage/Choose2';
+import Institute from '@/components/trainingpage/Institute';
+import Testimonials from '@/components/homepage/Testimonials';
 
 
 // export default function Component() {
@@ -31,10 +35,14 @@ const Page = () => {
     <>
       <TrainingLayout>
         <div className='max-w-8xl mx-auto'>
-          <TrainingHero />
-          <Choose />
-          <Courses />
+          {/* <TrainingHero /> */}
+          <Herotrain />
+          {/* <Choose /> */}
+          {/* <Courses /> */}
           <AllCourses />
+          <Choose2 />
+          <Institute />
+          <Testimonials />
           <Enjoyable />
         </div>
       </TrainingLayout>
