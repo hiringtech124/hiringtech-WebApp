@@ -12,31 +12,35 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 
-import Choose from '@/components/trainingpage/Choose'
-import Chose from '@/components/trainingpage/Chose'
-import Meeting from '@/components/trainingpage/Meeting'
-import Trainig from '@/components/trainingpage/Trainig'
-import TrainingHero from '@/components/trainingpage/TrainingHero'
-import TrainingLayout from './layout'
-import AllCourses from '@/components/trainingpage/allCourses'
+import Choose from '@/components/trainingpage/Choose';
+import Chose from '@/components/trainingpage/Chose';
+import Meeting from '@/components/trainingpage/Meeting';
+import Trainig from '@/components/trainingpage/Trainig';
+import TrainingHero from '@/components/trainingpage/TrainingHero';
+import TrainingLayout from './layout';
+import Courses from '@/components/trainingpage/Courses';
+import AllCourses from '@/components/trainingpage/allCourses';
+import Enjoyable from '@/components/trainingpage/Enjoyable';
+
 
 // export default function Component() {
 //   return (
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <TrainingLayout>
         <div className='max-w-8xl mx-auto'>
           <TrainingHero />
           <Choose />
-          {/* <Trainig /> */}
+          <Courses />
           <AllCourses />
-          {/* <Meeting /> */}
+          <Enjoyable />
         </div>
       </TrainingLayout>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default Page;
+

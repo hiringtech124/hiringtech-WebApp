@@ -64,3 +64,4 @@ const TrainingHero = () => {
 }
 
 export default TrainingHero
+
