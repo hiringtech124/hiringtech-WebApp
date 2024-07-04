@@ -6,17 +6,20 @@ import Hero from '@/components/trainingpage/courses/reactpage/Hero'
 import Opportunities from '@/components/trainingpage/courses/reactpage/Opportunities'
 import Placement from '@/components/trainingpage/courses/reactpage/Placement'
 import React from 'react'
+import ReactjsLayout from './layout'
 
 const page = () => {
     return (
         <div>
-            <Hero />
-            <Choose1 />
-            <CourseCurriculam />
-            <Placement />
-            <Opportunities />
-            <FaqComponent />
-            <Enroll />
+            <ReactjsLayout>
+                <Hero />
+                <Choose1 />
+                <CourseCurriculam />
+                <Placement />
+                <Opportunities />
+                <FaqComponent />
+                <Enroll />
+            </ReactjsLayout>
         </div>
     )
 }

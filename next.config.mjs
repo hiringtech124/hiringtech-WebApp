@@ -4,10 +4,13 @@
 // };
 
 // export default nextConfig;
-
+// module.exports = {
+//   reactStrictMode: true,
+// };
 // next.config.mjs
 
 const nextConfig = {
+  reactStrictMode: true,
   webpack(config, { isServer }) {
     // Add a rule to handle .mp4 files
     config.module.rules.push({

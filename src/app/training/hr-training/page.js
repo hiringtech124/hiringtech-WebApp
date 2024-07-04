@@ -5,16 +5,19 @@ import Placement from '@/components/trainingpage/courses/hrTrainingpage/Placemen
 import WhyHR from '@/components/trainingpage/courses/hrTrainingpage/WhyHR'
 import Enroll from '@/components/trainingpage/courses/reactpage/Enroll'
 import React from 'react'
+import HrLayout from './layout'
 
 const page = () => {
     return (
         <>
-            <Herohr />
-            <WhyHR />
-            <Placement />
-            <HrCurriculum />
-            <Hrfaq />
-            <Enroll />
+            <HrLayout>
+                <Herohr />
+                <WhyHR />
+                <Placement />
+                <HrCurriculum />
+                <Hrfaq />
+                <Enroll />
+            </HrLayout>
         </>
     )
 }

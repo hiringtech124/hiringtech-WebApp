@@ -6,17 +6,20 @@ import Syllabus from '@/components/trainingpage/courses/reactNativepage/Syllabus
 import WhyChoose from '@/components/trainingpage/courses/reactNativepage/whyChoose'
 import Enroll from '@/components/trainingpage/courses/reactpage/Enroll'
 import React from 'react'
+import ReactNativeLayout from './layout'
 
 const page = () => {
     return (
         <>
-            <Hero />
-            <WhyChoose />
-            <Job />
-            <Syllabus />
-            <Enrollment />
-            <NativeFaq />
-            <Enroll />
+            <ReactNativeLayout>
+                <Hero />
+                <WhyChoose />
+                <Job />
+                <Syllabus />
+                <Enrollment />
+                <NativeFaq />
+                <Enroll />
+            </ReactNativeLayout>
         </>
     )
 }

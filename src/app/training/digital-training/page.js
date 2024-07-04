@@ -5,17 +5,20 @@ import Jobdg from '@/components/trainingpage/courses/digitalTraining/Jobdg'
 import Whydg from '@/components/trainingpage/courses/digitalTraining/Whydigital'
 import Enroll from '@/components/trainingpage/courses/reactpage/Enroll'
 import React from 'react'
+import DgLayout from './layout'
 
 const page = () => {
     return (
-        <div>
-            <HeroDg />
-            <Whydg />
-            <Jobdg />
-            <DgPlacement />
-            <Dgfaq />
-            <Enroll />
-        </div>
+        <DgLayout>
+            <div>
+                <HeroDg />
+                <Whydg />
+                <Jobdg />
+                <DgPlacement />
+                <Dgfaq />
+                <Enroll />
+            </div>
+        </DgLayout>
     )
 }
 
