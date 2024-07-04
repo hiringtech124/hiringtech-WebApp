@@ -29,7 +29,7 @@ export default function Home() {
       <Services />
       <Clients />
       {/* <PlacementSlide /> */}
-      <TechExportHiringProcess />
+      {/* <TechExportHiringProcess /> */}
 
       <section className='relative'>
         <Testimonials />
