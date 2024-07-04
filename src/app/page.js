@@ -15,6 +15,9 @@ import Tech2 from '@/components/homepage/Tech2'
 import PlacementSlide from '@/components/homepage/placementSlide/PlacementSlide'
 import ITRecruitmentServices from '@/components/homepage/Recruitment'
 import TechExportHiringProcess from '@/components/homepage/Techexport'
+import Benifits from '@/components/homepage/Benifits'
+import Technologiesf from '@/components/homepage/Technologiesf'
+import Last from '@/components/homepage/Last'
 
 export default function Home() {
   return (
@@ -27,6 +30,7 @@ export default function Home() {
       <About2 />
       {/* <Service2 /> */}
       <Services />
+      <Benifits />
       <Clients />
       {/* <PlacementSlide /> */}
       {/* <TechExportHiringProcess /> */}
@@ -35,8 +39,10 @@ export default function Home() {
         <Testimonials />
         {/* <Testi2 /> */}
         {/* <Techstack /> */}
-        <Tech2 />
+        {/* <Tech2 /> */}
       </section>
+      <Technologiesf />
+      <Last />
     </>
   )
 }
