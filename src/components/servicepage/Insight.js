@@ -48,7 +48,7 @@ const Insight = () => {
                 <div className="relative py-5">
                     <div className="flex space-x-4 overflow-hidden relative">
                         {images.slice(currentSlide, currentSlide + 3).map((image, index) => (
-                            <div key={index} className="w-full h-[400px] relative transition-all duration-500 ease-in-out">
+                            <div key={index} className="w-full md:w-[calc(33.333% - 1rem)] sm:w-[calc(50% - 1rem)] h-[400px] relative transition-all duration-500 ease-in-out">
                                 <Link href={image.Link}>
                                     <Image
                                         src={image.url}
