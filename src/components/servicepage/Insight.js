@@ -10,17 +10,18 @@ import img5 from './assets/techtale.png';
 import img6 from './assets/dgfront.png';
 import img7 from './assets/odyssey.png';
 import img8 from './assets/techtale2.png';
+import Link from 'next/link';
 
 const Insight = () => {
     const images = [
-        { url: img1, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img2, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img3, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img4, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img5, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img6, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img7, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
-        { url: img8, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?" },
+        { url: img1, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img2, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img3, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img4, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img5, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img6, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img7, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
+        { url: img8, title: "7 Advantages of Using a Recruitment Agency", desc: "What Are the Benefits of Recruitment?", Link: "/blog/unlocking-success" },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -48,21 +49,23 @@ const Insight = () => {
                     <div className="flex space-x-4 overflow-hidden relative">
                         {images.slice(currentSlide, currentSlide + 3).map((image, index) => (
                             <div key={index} className="w-full h-[400px] relative transition-all duration-500 ease-in-out">
-                                <Image
-                                    src={image.url}
-                                    alt={`Image ${index + 1}`}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    className="rounded-[40px]"
-                                />
-                                <div className='absolute left-0 bottom-0 p-5'>
-                                    <h2 className='text-[20px] font-bold text-[#fff]'>{image.title}</h2>
-                                    <h4 className='text-[16px] font-medium text-[#fff]'>{image.desc}</h4>
-                                    <div className='flex gap-5 items-center pl-4'>
-                                        <FaArrowRightLong className='text-[#D79442] text-[40px]' />
-                                        <p className='text-[22px] font-bold text-[#fff]'>Read More</p>
+                                <Link href={image.Link}>
+                                    <Image
+                                        src={image.url}
+                                        alt={`Image ${index + 1}`}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        className="rounded-[40px]"
+                                    />
+                                    <div className='absolute left-0 bottom-0 p-5'>
+                                        <h2 className='text-[20px] font-bold text-[#fff]'>{image.title}</h2>
+                                        <h4 className='text-[16px] font-medium text-[#fff]'>{image.desc}</h4>
+                                        <div className='flex gap-5 items-center pl-4'>
+                                            <FaArrowRightLong className='text-[#D79442] text-[40px]' />
+                                            <p className='text-[22px] font-bold text-[#fff]'>Read More</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         ))}
                     </div>
