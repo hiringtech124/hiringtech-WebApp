@@ -172,6 +172,7 @@ import Emailsub from './Emailsub'
 import './blog.scss'
 
 const Blog2 = () => {
+
   const blogPosts = [
     {
       href: '/blog/Unveiling-the-Digital-Symphony',
