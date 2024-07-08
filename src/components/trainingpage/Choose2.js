@@ -45,7 +45,7 @@ const Choose2 = () => {
         <div className='w-full flex justify-center'>
             <div className='w-[90%] flex flex-col gap-2'>
                 <h2 className='text-[#175574] text-[22px] max-xl:text-[20px] font-medium'>Why Choose us</h2>
-                <h2 className='text-[#062B43] text-[41px] max-xl:text-[34px] max-lg:text-[28px] max-md:text-[24px] max-sm:text-[20px] max-sm:leading-6 leading-10 font-semibold'>
+                <h2 className='text-[#062B43] text-[30px] max-lg:text-[28px] max-md:text-[24px] max-sm:text-[20px] max-sm:leading-6 leading-10 font-semibold'>
                     Choosing our IT training institute means you'll benefit from a comprehensive learning experience designed to set you on the path to success. Here are the top reasons:
                 </h2>
                 <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-md:gap-5 py-5'>

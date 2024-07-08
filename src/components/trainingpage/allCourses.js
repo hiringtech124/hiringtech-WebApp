@@ -13,26 +13,26 @@ const courses = [
     {
         href: '/training/react-js',
         imgSrc: img1,
-        title: 'React JS Developer',
-        description: 'Master front-end web development with our comprehensive course. Learn HTML, CSS, JavaScript, and more efficiently.',
+        title: 'React JS Training',
+        description: 'Receive in-depth training for front-end development with practical sessions focused on real-world applications. Cover state management, hooks, and performance optimization, guided by seasoned developers.',
     },
     {
         href: '/training/react-native',
         imgSrc: img2,
-        title: 'React-Native Developer',
-        description: 'Master front-end web development with our comprehensive course. Learn HTML, CSS, JavaScript, and more efficiently.',
+        title: 'React-Native Training',
+        description: 'Focus on developing cross-platform mobile applications through extensive practical training and project work. Learn to integrate with back-end services with guidance from industry experts.',
     },
     {
         href: '/training/hr-training',
         imgSrc: img3,
         title: 'HR Training Programe',
-        description: 'Master front-end web development with our comprehensive course. Learn HTML, CSS, JavaScript, and more efficiently.',
+        description: 'Master HR fundamentals with industry experts, including strategic management and advanced HR analytics. Gain practical knowledge through real-world case studies to excel in HR roles.',
     },
     {
         href: '/training/digital-training',
         imgSrc: img1,
-        title: 'Digital Marketing Training Course',
-        description: 'Master front-end web development with our comprehensive course. Learn HTML, CSS, JavaScript, and more efficiently.',
+        title: 'Digital Marketing Training',
+        description: 'Gain comprehensive knowledge of SEO, SEM, social media marketing, and content strategy. Engage in hands-on projects to build a robust portfolio and validate your skills with certification. Learn the latest tools and techniques from experienced marketers.',
     },
 ];
 
@@ -45,7 +45,7 @@ const AllCourses = () => {
                 <div className='w-[100%] py-10 grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 items-center gap-y-10'>
                     {courses.map((course, index) => (
                         <Link key={index} href={course.href} className='flex justify-center'>
-                            <div className='cursor-pointer w-[369px] h-[461px] max-xl:w-[300px] max-xl:h-[450px] max-sm:h-[400px] flex flex-col justify-between pb-5 border border-[#D79442] rounded-[30px]  '>
+                            <div className='cursor-pointer w-[369px] h-[550px] max-xl:w-[300px] max-xl:h-[500px] max-sm:h-[470px] flex flex-col justify-between pb-5 border border-[#D79442] rounded-[30px]  '>
                                 <Image src={course.imgSrc} alt='Course Image' />
                                 <div className='flex justify-between p-2'>
                                     <Image src={img4} className='my-auto' alt='Icon 1' />
