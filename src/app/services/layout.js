@@ -1,6 +1,4 @@
 import Script from "next/script";
-import Header from '@/components/Header/Header';
-import Footer from '@/components/placementPage/footer/Footer';
 
 export default function ServicesLayout({ children }) {
     return (
@@ -21,11 +19,7 @@ export default function ServicesLayout({ children }) {
 
                 />
             </head>
-            <body>
-                <Header />
-                <main>{children}</main>
-                <Footer />
-            </body>
+            <div>{children}</div>
         </>
     );
 }
