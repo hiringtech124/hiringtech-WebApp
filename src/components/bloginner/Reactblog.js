@@ -37,7 +37,7 @@ const Reactblog = () => {
                                     Introduction
                                 </h1>
                                 <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
-                                    In the ever-evolving world of web development, staying updated with the latest technologies is crucial. One such technology that has gained immense popularity over the years is ReactJS. But is ReactJS worth learning? The answer is a resounding yes! Here are ten compelling reasons to learn ReactJS:
+                                    In the ever-evolving world of web development, staying updated with the latest technologies is crucial. One such technology that has gained immense popularity over the years is ReactJS. But is ReactJS worth learning? The answer is a resounding yes! Here are ten compelling reasons to <Link href='/training/react-js' className='font-bold'>learn ReactJS</Link>:
                                 </div>
                                 <h2 className='text-[30px] text-[#175574] font-semibold'>
                                     1. High Demand in the Job Market
@@ -77,7 +77,7 @@ const Reactblog = () => {
                                     <h2 className='text-[30px] text-[#175574] font-semibold'>
                                         7. Rich Ecosystem of Libraries and Tools
                                     </h2>
-                                    The ReactJS ecosystem is rich with libraries and tools that simplify development tasks. From state management with Redux to routing with React Router, the ecosystem provides a wide range of options to enhance and streamline your development process. ReactJS training can help you navigate and utilize these tools effectively.
+                                    The ReactJS ecosystem is rich with libraries and tools that simplify development tasks. From state management with Redux to routing with React Router, the ecosystem provides a wide range of options to enhance and streamline your development process. <Link href='/training/react-js' className='font-bold'>ReactJS training</Link> can help you navigate and utilize these tools effectively.
                                     <br />
                                     <br />
                                     <h2 className='text-[30px] text-[#175574] font-semibold'>
@@ -89,7 +89,7 @@ const Reactblog = () => {
                                     <h2 className='text-[30px] text-[#175574] font-semibold'>
                                         9. Improved Developer Experience
                                     </h2>
-                                    ReactJS offers a great developer experience with its intuitive syntax and helpful developer tools. The React Developer Tools extension, for instance, allows developers to inspect the component hierarchy, making debugging and optimizing applications much easier. React JS Certification course can familiarize you with these tools.
+                                    ReactJS offers a great developer experience with its intuitive syntax and helpful developer tools. The React Developer Tools extension, for instance, allows developers to inspect the component hierarchy, making debugging and optimizing applications much easier. <Link href='/training/react-js' className='font-bold'>React JS Certification course</Link> can familiarize you with these tools.
 
                                     <br />
                                     <br />
@@ -104,7 +104,7 @@ const Reactblog = () => {
                                     Conclusion
                                 </h2>
                                 <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
-                                    So, is ReactJS worth learning? Absolutely! With its high demand in the job market, robust community support, and versatility in development, ReactJS offers numerous benefits for developers at all levels. Whether you're aiming to advance your career with React JS Training with placement, React JS Certification course, or simply wanting to learn React js for personal growth, now is the perfect time to dive into the world of ReactJS.
+                                    So, is ReactJS worth learning? Absolutely! With its high demand in the job market, robust community support, and versatility in development, <Link href='/training/react-js' className='font-bold'>React JS Certification course</Link> for developers at all levels. Whether you're aiming to advance your career with React JS Training with placement, React JS Certification course, or simply wanting to learn React js for personal growth, now is the perfect time to dive into the world of ReactJS.
                                     <br />
                                 </div>
                             </div>
