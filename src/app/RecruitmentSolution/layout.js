@@ -1,24 +1,33 @@
+import Head from "next/head";
 import Script from "next/script";
+import Header from '@/components/Header/Header';
+import Footer from '@/components/placementPage/footer/Footer';
 
-export default function RecruitmentLayout({ children }) {
+export default function ServicesLayout({ children }) {
     return (
         <>
-            <head>
-                <title>Recruitment Solutions - Hiring Tech | Recruitment & Staffing Services</title>
-                <meta name="description" content="Discover Hiring Tech's specialized recruitment solutions, offering expert staffing services and comprehensive support for businesses. Our tailored programs and industry expertise help you find the right talent and achieve success in the evolving job market." />
-                <Script id="inline-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
-                <Script id="inline-script" dangerouslySetInnerHTML={
-                    {
+            <Head>
+                <title>Comprehensive IT Services - Hiring Tech | Training & Solutions</title>
+                <meta name="description" content="Explore Hiring Tech's wide range of IT services, including expert training, innovative tech solutions, and comprehensive support for businesses. Our tailored programs and industry expertise help you achieve success in the evolving tech landscape." />
+                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
+                <Script
+                    id="inline-script"
+                    dangerouslySetInnerHTML={{
                         __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-6TKGW738HL');
-          `}
-                }
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-6TKGW738HL');
+                        `,
+                    }}
                 />
-            </head>
-            <div>{children}</div>
+            </Head>
+            <Header />
+            <main>{children}</main>
+            <Footer />
         </>
     );
 }
+
+
+

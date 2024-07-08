@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import expert from './assets/expert';
+import expert from './assets/expert.png';
 
 const ExpertIt = () => {
     return (

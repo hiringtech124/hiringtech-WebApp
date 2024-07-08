@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import mission from './aassets/mission.png';
+import mission from './assets/mission.png';
 import vision from './assets/vision.png';
 import values from './assets/values.png';
 
