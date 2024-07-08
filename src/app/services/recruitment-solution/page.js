@@ -1,13 +1,13 @@
-import Mission from '@/components/servicepage/RecruitmentSolution/Mission';
-import ExpertIt from '@/components/servicepage/RecruitmentSolution/Expert';
-import Itrecruitment from '@/components/servicepage/RecruitmentSolution/Itrecruitment';
+import ExpertIt from '@/components/RecruitmentSolution/Expert';
+import Itrecruitment from '@/components/RecruitmentSolution/Itrecruitment';
+import Mission from '@/components/RecruitmentSolution/Mission';
 
 
 export default function Home() {
     return (
         <>
-            <Mission />
             <ExpertIt />
+            <Mission />
             <Itrecruitment />
 
         </>

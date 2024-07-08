@@ -236,6 +236,15 @@ const Blog2 = () => {
       description: 'Navigating today\'s job market, especially in IT and tech, can be challenging.',
       date: '27/06/2024',
       name: 'Faizan'
+    },
+    {
+      href: '/blog/ReactJs-reasons',
+      imgClass: 'blog-imgn8',
+      number: '08',
+      title: 'Is ReactJS Worth Learning?',
+      description: 'One such technology that has gained immense popularity over the years is ReactJS.',
+      date: '08/07/2024',
+      name: 'Kavita'
     }
   ];
 

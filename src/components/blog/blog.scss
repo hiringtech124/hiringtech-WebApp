@@ -123,6 +123,22 @@
   // z-index: ;
 }
 
+.blog-imgn8::before {
+  content: "";
+  position: absolute;
+  width: 416px;
+  top: 30px;
+  height: 555px;
+  background: url('./assets/reactcard.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0px;
+  border-radius: 15px;
+  // background: #00000090;
+  // z-index: ;
+}
+
 // .blog-imgn::after {
 //   content: "";
 //   position: absolute;
