@@ -6,9 +6,12 @@ import Itrecruitment from '@/components/servicepage/RecruitmentSolution/Itrecrui
 export default function Home() {
     return (
         <>
-            <Mission />
-            <ExpertIt />
-            <Itrecruitment />
+            <div>
+                <Mission />
+                <ExpertIt />
+                <Itrecruitment />
+            </div>
+
 
         </>
     );
