@@ -70,7 +70,7 @@ const Insight = () => {
                                     <Image
                                         src={image.url}
                                         alt={`Image ${index + 1}`}
-                                        layout="fill"
+                                        fill
                                         objectFit="cover"
                                         className="rounded-[40px] max-sm:rounded-[30px]"
                                     />

@@ -7,6 +7,7 @@ import Team from '@/components/Aboutpage/Team'
 
 import React from 'react'
 import AboutLayout from './layout'
+import Last from '@/components/homepage/Last'
 
 const page = () => {
   return (
@@ -19,7 +20,8 @@ const page = () => {
         <Stream />
         {/* <ScrollAnimation /> */}
         <Team />
-        <Offer />
+        {/* <Offer /> */}
+        <Last />
       </AboutLayout>
     </>
   )
