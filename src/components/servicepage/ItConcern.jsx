@@ -196,23 +196,27 @@ const services = [
     image: img,
     title: 'Recruitment Solutions',
     description: `Find the perfect fit for your team with our Recruitment services. We identify and attract top talent who match your company's culture and goals. We provide IT Consulting and Recruitment services at competitive rates and deliver results swiftly.`,
+    href: "/services/recruitment-solution"
   },
   {
     image: img2,
     title: 'IT Training Programs',
     style: 'flex-row-reverse',
     description: `Enhance your team's skills with our IT Training programs. Covering various domains, our training ensures your team stays proficient and current with industry trends. We deliver cost-effective training, meeting your deadlines every time.`,
+    href: "/services/it-training-programs"
   },
   {
     image: img3,
     title: 'Web Development Services',
     description: `We specialize in creating responsive, user-friendly websites tailored to your business needs. Our expert team ensures high performance, security, and SEO optimization, providing a seamless online experience for your users.`,
+    href: "/services/web-development-services"
   },
   {
     image: img4,
     title: 'App Development Services',
     style: 'flex-row-reverse',
     description: `Our app development team designs and develops custom mobile applications for iOS and Android platforms. We focus on delivering intuitive and engaging user experiences, backed by robust functionality and cutting-edge technology.`,
+    href: "/services/app-development-services"
   }
 ]
 
@@ -244,7 +248,7 @@ const ItConcern = () => {
                 </div>
                 <div className='mt-8'>
                   <Link
-                    href='/contact'
+                    href={service.href}
                     className='px-8 py-3 cursor-pointer bg-[#D79442] text-white hover:bg-[#CC7914] rounded-3xl'
                   >
                     Contact Us

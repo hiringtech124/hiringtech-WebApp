@@ -8,20 +8,6 @@
       #abe1f8 87.75%);
 }
 
-.headerb::before {
-
-  content: "";
-  position: absolute;
-  width: 100%;
-  // top: 30px;
-  height: 100%;
-  // left: 31px;
-  // border-radius: 15px;
-  background: url('./assets/bh3.png');
-  z-index: -1;
-  background-size: 120%;
-  background-repeat: no-repeat;
-}
 
 .blog-imgn::before {
   content: "";
