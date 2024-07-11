@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header2 />
 
-        <main className='max-w7xl mx-auto er'>
+        <main className='max-w7xl mx-auto er font-serif'>
           {children}
         </main>
         {/* <Footer /> */}

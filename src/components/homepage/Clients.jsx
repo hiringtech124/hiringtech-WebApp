@@ -19,6 +19,8 @@ import './style.scss'
 import Link from 'next/link'
 
 const Clients = () => {
+
+
   return (
     <>
       <div className='client mt-[50px] max-sm:mt-[30px]'>

@@ -37,8 +37,8 @@ const ITRecruitmentServices = () => {
     return (
         <div className="w-full flex justify-center">
             <div className="w-[90%] mx-auto py-8">
-                <h2 className="text-xl font-semibold mb-2 text-[#062B43]"><span className='text-[#D79442] font-bold mr-5 max-sm:mr-1'>|</span> IT Recruitment Services:</h2>
-                <h1 className="text-3xl max-sm:text-2xl font-bold mb-4 max-sm:mb-2 text-[#062B43]">Tech Expert Hiring Process</h1>
+                {/* <h2 className="text-xl font-semibold mb-2 text-[#175574]"><span className='text-[#D79442] font-bold mr-5 max-sm:mr-1'>|</span> IT Recruitment Services:</h2> */}
+                <h1 className="text-[41px] max-lg:text-[30px] max-sm:text-2xl font-bold mb-4 max-sm:mb-2 text-[#062B43]">How We Hire?</h1>
                 <p className="mb-8 text-[#175574] text-[20px] max-sm:text-[14px]">
                     Our IT recruitment services hiring process is designed to ensure that we deliver the best candidates to meet your specific requirements. Here’s how we do it:
                 </p>

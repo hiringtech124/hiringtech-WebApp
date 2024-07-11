@@ -8,6 +8,7 @@ import ITRecruitmentServices from '@/components/homepage/Recruitment'
 import Benifits from '@/components/homepage/Benifits'
 import Technologiesf from '@/components/homepage/Technologiesf'
 import Last from '@/components/homepage/Last'
+import Faqhome from '@/components/homepage/Faqhome'
 
 
 export default function Home() {
@@ -19,11 +20,12 @@ export default function Home() {
       <About2 />
       <Services />
       <Benifits />
-      <Clients />
+      {/* <Clients /> */}
       <section className='relative'>
         <Testimonials />
       </section>
       <Technologiesf />
+      <Faqhome />
       <Last />
     </>
   )
