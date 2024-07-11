@@ -43,7 +43,7 @@ const Stream = () => {
     return (
         <div className='w-full flex justify-center pb-20 max-sm:pb-10'>
             <div className='w-[90%]'>
-                <h2 className='text-[41px] max-xl:text-[34px] max-lg:text-[28px] max-sm:text-[20px] text-[#062B43] font-bold text-center'>Explore Our Comprehensive Web Development Services</h2>
+                <h2 className='text-[41px] max-xl:text-[34px] max-lg:text-[28px] max-sm:text-[20px] text-[#062B43] font-bold text-center'>Our Streamlined Web Development Process</h2>
                 <div className='grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-20 max-xl:gap-10 max-md:gap-x-5 max-sm:gap-5 pt-10 mx-20 max-xl:mx-0'>
                     {content.map((item, index) => (
                         <div key={index} className={` max-md:px-4 flex flex-col gap-5 rounded-2xl `}>

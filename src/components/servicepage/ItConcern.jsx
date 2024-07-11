@@ -203,7 +203,7 @@ const services = [
     title: 'IT Training Programs',
     style: 'flex-row-reverse',
     description: `Enhance your team's skills with our IT Training programs. Covering various domains, our training ensures your team stays proficient and current with industry trends. We deliver cost-effective training, meeting your deadlines every time.`,
-    href: "/services/it-training-programs"
+    href: "/services/training"
   },
   {
     image: img3,

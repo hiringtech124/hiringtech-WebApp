@@ -343,7 +343,10 @@ import abhii from './team/abhi.png'
 import jat from './team/jat.png'
 import lavesh from './team/lavesh.png'
 import sumit from './team/Sumit.png'
-import lokesh from './team/Lokesh.png'
+import poonam from './team/poonam1.svg'
+import Ayushi from './team/Ayushi.svg'
+import Priya from './team/Priya.svg'
+import siddhi from './team/siddhi.svg'
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -379,10 +382,34 @@ const Team = () => {
       linkedin: 'http://www.linkedin.com/in/shruti-dixit-23b1021b7'
     },
     {
+      img: Ayushi,
+      name: 'Ayushi Raj',
+      title: 'Marketing and Business Development Coordinator',
+      linkedin: 'https://www.linkedin.com/in/ayushi-raj-b63286210/'
+    },
+    {
+      img: Priya,
+      name: 'Priyanka Shirapure',
+      title: 'Digital Marketing Analyst',
+      linkedin: 'https://www.linkedin.com/in/priyanka-shirapure-548658102'
+    },
+    {
       img: dev,
       name: 'Devayani Deshmukh',
       title: 'UI/UX Specialist',
       linkedin: 'http://linkedin.com/in/devayani-deshmukh-a29451297'
+    },
+    {
+      img: jat,
+      name: 'Jatin kumar',
+      title: 'UI/UX Designer',
+      linkedin: 'https://www.linkedin.com/in/jatinkumar05/'
+    },
+    {
+      img: siddhi,
+      name: 'Siddhi Lad',
+      title: 'UI/UX Designer',
+      linkedin: 'https://www.linkedin.com/in/siddhi-lad-130600-'
     },
     {
       img: sudh,
@@ -397,10 +424,10 @@ const Team = () => {
       linkedin: 'https://www.linkedin.com/in/faizan-husain'
     },
     {
-      img: lokesh,
-      name: 'Lokesh Agrawal',
+      img: poonam,
+      name: 'Poonam Sengar',
       title: 'Application Developer',
-      linkedin: 'https://www.linkedin.com/in/lokesh-kumar-768a5a22b/'
+      linkedin: 'https://www.linkedin.com/in/poonam-sengar-048b5718b'
     },
     {
       img: sumit,
@@ -419,11 +446,11 @@ const Team = () => {
           </h2>
           <div className='flex gap-10 max-sm:gap-5 flex-wrap justify-center items-center'>
             {teamMembers.map((member, index) => (
-              <div key={index} className='group p-2'>
+              <div key={index} className='w-[350px] max-sm:w-[250px] group p-2'>
                 <Image src={member.img} width={300} height={300} className='max-sm:w-[200px]' alt={member.name} />
                 <div className='flex justify-center relative'>
                   <div>
-                    <h3 className='text-[20px] text-[#175574] font-bold my-2'>
+                    <h3 className='text-[20px] text-[#175574] text-center font-bold my-2'>
                       {member.name}
                     </h3>
                     <p className='text-gray-700 font-medium'>{member.title}</p>
