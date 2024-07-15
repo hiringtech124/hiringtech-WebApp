@@ -5,7 +5,7 @@ import img from './assets/Group 112.png'
 import img2 from './assets/Group 115.png'
 import img3 from './assetss/1.png'
 import img4 from './assetss/2.png'
-import visres from './assetss/visres.png'
+import visres from './assetss/vis.svg'
 
 import './style.scss'
 const Vision2 = () => {
