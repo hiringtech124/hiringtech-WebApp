@@ -5,27 +5,27 @@ import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 const faqs = [
     {
         question: "What makes Hiring Tech different from other IT recruitment agencies",
-        answer: "React is a JavaScript library for building user interfaces, primarily used for developing single-page applications. It allows developers to create reusable UI components."
+        answer: "We offer customized IT Recruitment Services and have a proven track record of successful placements. Our deep industry knowledge and extensive network in IT Consulting Services and Technology Consulting set us apart."
     },
     {
         question: "How quickly can you fill an IT position?",
-        answer: "Learning React offers benefits like high demand in the job market, the ability to create dynamic and high-performing web applications, a strong community support, and compatibility with other libraries and frameworks."
+        answer: "Our streamlined hiring process allows us to fill positions quickly, typically within a few weeks, through our IT Recruitment Services and Tech Talent Acquisition."
     },
     {
         question: "Do you offer IT consulting services in addition to recruitment?",
-        answer: "Yes, practical sessions are included in the React course to provide hands-on experience in building React applications."
-    },
-    {
-        question: "What Tools And Technologies Will Be Used During The React Course?",
-        answer: "The course will use tools and technologies like JavaScript, JSX, Node.js, npm, Babel, Webpack, and Redux."
+        answer: "Yes, we provide comprehensive IT Consulting Services, including IT Strategy Consulting and Technology Consulting."
     },
     {
         question: "What industries do you specialize in for IT recruitment?",
-        answer: "Yes, the course includes opportunities to work on real-time and live projects to apply the concepts learned."
+        answer: "We specialize in a wide range of industries, including technology, finance, healthcare, and more, with our IT Consulting and Recruitment Services."
     },
     {
-        question: "How Many Students Are Typically In A Batch For The React Course?",
-        answer: "Batch sizes typically range from 10 to 20 students, ensuring personalised attention and better interaction."
+        question: "How do you ensure the quality of candidates?",
+        answer: "We conduct rigorous screening and interview processes to ensure that we provide only the highest quality candidates in IT Professional Recruitment."
+    },
+    {
+        question: "Can you provide temporary IT staffing solutions?",
+        answer: "Yes, we offer flexible IT Staffing Solutions, including temporary, contract, and full-time placements through our IT Recruitment Services and IT Job Placement."
     },
 ];
 
