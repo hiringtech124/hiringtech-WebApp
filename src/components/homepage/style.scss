@@ -185,3 +185,52 @@
     transform: translateY(-60%);
   }
 }
+
+//new
+.client-images {
+  display: flex;
+  overflow: hidden;
+}
+
+@keyframes slide_horizontal {
+
+  0%,
+  100% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(-60%);
+  }
+}
+
+
+
+///////////////////////////////////
+/// 
+/// 
+
+.imageContainer {
+
+  animation: slideLeft 20s linear infinite;
+  /* Adjust animation duration as needed */
+}
+
+
+
+
+@keyframes slideLeft {
+  100% {
+    transform: translateX(10%);
+  }
+
+  50% {
+    transform: translateX(-60%);
+  }
+}
+
+// @media (max-width: 768px) {
+//   .imageContainer {
+//     animation: slideLeft 10s linear infinite;
+//   }
+// }

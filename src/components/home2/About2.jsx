@@ -10,9 +10,9 @@ const About2 = () => {
           <Image src={img} alt='m' />
         </div>
         <div className='flex flex-col mt-5 w-[50%] max-md:w-full max-w[1200px] max-md:max-w-full'>
-          <h3 className='self-start text-[#062B43] text-xl max-lg:text-[20px] font-bold leading-[51.2px]'>
+          {/* <h3 className='self-start text-[#062B43] text-xl max-lg:text-[20px] font-bold leading-[51.2px]'>
             <span className='text-[#D79442]'>|</span> About Us
-          </h3>
+          </h3> */}
           <h2 className='self-start max-sm:leading-7 text-[#062B43] text-[41px] max-xl:text-[35px] max-lg:text-[28px] max-sm:text-[22px] font-bold leading-[51.2px]'>
             Why Choose Us?
           </h2>
