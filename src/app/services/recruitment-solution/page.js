@@ -1,7 +1,7 @@
-import Mission from '@/components/servicepage/RecruitmentSolution/Mission';
-import ExpertIt from '@/components/servicepage/RecruitmentSolution/ExpertIt';
+import ExpertIt from '@/components/servicepage/RecruitmentSolution/Expert';
+import FAQs from '@/components/servicepage/RecruitmentSolution/Faq';
 import Itrecruitment from '@/components/servicepage/RecruitmentSolution/Itrecruitment';
-import FAQs from '@/components/servicepage/RecruitmentSolution/FAQs';
+import Mission from '@/components/servicepage/RecruitmentSolution/Mission';
 
 export default function Home() {
     return (
