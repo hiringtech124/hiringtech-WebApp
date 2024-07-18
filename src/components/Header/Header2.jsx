@@ -42,7 +42,7 @@ const Header2 = () => {
     <>
       {width <= 768 ? (
         <>
-          <header className='bg-[#fff] shadow-lg flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full max-sm:rounded-3xl z-[9990]'>
+          <header className=' flex items-center bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-0 h-[100px] max-lg:h-[100px] max-sm:h-[70px] rounded-full max-sm:rounded-3xl z-[9990]'>
             <div className='header flex justify-between items-center w-[90%] mx-auto items-center'>
               <div className='logo'>
                 <Link href='/'>
@@ -144,7 +144,7 @@ const Header2 = () => {
         </>
       ) : (
         // desktop
-        <div className='bg-[#fff] shadow-xl max-sm:shadow-lg w-[100%] mx-auto flex gap-5 justify-between items-center text-base font-medium leading-4 text-center text-[#000] max-md:flex-wrap max-md:max-w-full py-6 px-10  mx-auto sticky top-0 h-[100px] max-lg:h-[80px] rounded-full z-[9999999999999999990] bg-opacity-50 backdrop-blur-[110.60px]'>
+        <div className=' w-[100%] mx-auto flex gap-5 justify-between items-center text-base font-medium leading-4 text-center text-[#000] max-md:flex-wrap max-md:max-w-full py-6 px-10  mx-auto sticky top-0 h-[100px] max-lg:h-[80px] rounded-full z-[9999999999999999990] bg-opacity-50 backdrop-blur-[110.60px]'>
           <Link href='/'>
             {/* <div className='logobg'></div> */}
             <Image src={logo} alt='logo' className='w-[110px] max-xl:w-[90px] ' />
@@ -198,8 +198,8 @@ const Header2 = () => {
             </Link>
 
             <Link href='/contact'>
-              <div className='flex flex-col justify-center self-stretch my-auto'>
-                <div className='justify-center bg-[#D79442] px-9 py-4 max-xl:px-4 max-xl:py-2.5 max-lg:px-4 max-lg:py-1.5 rounded-[54px] border-white border-solid border-[0.5px] max-md:px-5 lettl hover:border-[#CC7914] hovertext-[#00557E] hover:bg-[#CC7914] text-[#fff]'>
+              <div className='flex  flex-col justify-center self-stretch my-auto'>
+                <div className='justify-center shadow-xl bg-[#D79442] px-9 py-4 max-xl:px-4 max-xl:py-2.5 max-lg:px-4 max-lg:py-1.5 rounded-[54px] max-md:px-5 lettl hover:border-[#CC7914] hovertext-[#00557E] hover:bg-[#CC7914] text-[#fff]'>
                   Lets Talk
                 </div>
               </div>

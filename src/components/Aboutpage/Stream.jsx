@@ -7,238 +7,6 @@ import img3 from './asstes/ab3.png'
 
 const Stream = () => {
   return (
-    // <>
-    //   <div className='min-h-screen pt-10'>
-    //     <div className='max-w-[1240px] mx-auto'>
-    //       <div className='flex flex-wrap gap-8 px-4'>
-    //         <div className='mb-5 mt-10 w-full'>
-    //           <h2 className='text-[#062B43] text-[55px] font-bold leading-[51.2px] sm:text-[40px]'>
-    //             Streamlined IT Solutions
-    //           </h2>
-    //         </div>
-    //         <div className='flex flex-col w-full'>
-    //           <div className='border-[#D79442] border-3 mt-5 w-full p-3 bg-[#abe1f8b0] rounded-2xl'>
-    //             <div className='flex gap-4'>
-    //               <div className='w-14 h-14'>
-    //                 <svg
-    //                   xmlns='http://www.w3.org/2000/svg'
-    //                   width='57'
-    //                   height='53'
-    //                   viewBox='0 0 57 53'
-    //                   fill='none'
-    //                 >
-    //                   <g className='mix-blend-multiply'>
-    //                     <rect
-    //                       width='56.3891'
-    //                       height='52.7426'
-    //                       rx='10'
-    //                       transform='matrix(-1 0 0 1 57 0.078125)'
-    //                       fill='#ABE1F8'
-    //                     />
-    //                   </g>
-    //                   <rect
-    //                     width='2.38485'
-    //                     height='15.0044'
-    //                     transform='matrix(0.880781 0.473384 -0.448173 0.893877 45.1963 24.8887)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38765'
-    //                     height='11.6785'
-    //                     transform='matrix(0.880927 0.473095 -0.448454 0.893726 47.3115 27.9197)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.39194'
-    //                     height='8.35155'
-    //                     transform='matrix(0.88113 0.472691 -0.448836 0.893521 49.4248 30.9506)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38485'
-    //                     height='15.0044'
-    //                     transform='matrix(-0.880782 -0.473384 -0.448173 0.893877 20.8457 11.7358)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38765'
-    //                     height='11.6785'
-    //                     transform='matrix(-0.880927 -0.473095 -0.448454 0.893726 17.2432 11.6799)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.39194'
-    //                     height='8.35155'
-    //                     transform='matrix(-0.88113 -0.472691 -0.448836 0.893522 13.6406 11.6241)'
-    //                     fill='#0684C1'
-    //                   />
-    //                 </svg>
-    //               </div>
-
-    //               <h2 className='text-[28px] text-[#036A9D] font-bold'>
-    //                 Comprehensive IT Consultancy Services:
-    //               </h2>
-    //             </div>
-
-    //             <div className='mt-5'>
-    //               <p className='text-[26px] text-[#175574]'>
-    //                 Hiring Tech IT Services offers advanced IT consultancy
-    //                 services catering to both IT and Non-IT industries across
-    //                 India. Our expertise covers a wide range of solutions
-    //                 tailored to meet specific industry needs.
-    //               </p>
-    //             </div>
-    //           </div>
-    //           <div className='border-[#D79442] border-3 mt-10 w-full p-3 bg-[#abe1f8b0] rounded-2xl'>
-    //             <div className='flex gap-4'>
-    //               <div className='w-14 h-14'>
-    //                 <svg
-    //                   xmlns='http://www.w3.org/2000/svg'
-    //                   width='57'
-    //                   height='53'
-    //                   viewBox='0 0 57 53'
-    //                   fill='none'
-    //                 >
-    //                   <g className='mix-blend-multiply'>
-    //                     <rect
-    //                       width='56.3891'
-    //                       height='52.7426'
-    //                       rx='10'
-    //                       transform='matrix(-1 0 0 1 57 0.078125)'
-    //                       fill='#ABE1F8'
-    //                     />
-    //                   </g>
-    //                   <rect
-    //                     width='2.38485'
-    //                     height='15.0044'
-    //                     transform='matrix(0.880781 0.473384 -0.448173 0.893877 45.1963 24.8887)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38765'
-    //                     height='11.6785'
-    //                     transform='matrix(0.880927 0.473095 -0.448454 0.893726 47.3115 27.9197)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.39194'
-    //                     height='8.35155'
-    //                     transform='matrix(0.88113 0.472691 -0.448836 0.893521 49.4248 30.9506)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38485'
-    //                     height='15.0044'
-    //                     transform='matrix(-0.880782 -0.473384 -0.448173 0.893877 20.8457 11.7358)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38765'
-    //                     height='11.6785'
-    //                     transform='matrix(-0.880927 -0.473095 -0.448454 0.893726 17.2432 11.6799)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.39194'
-    //                     height='8.35155'
-    //                     transform='matrix(-0.88113 -0.472691 -0.448836 0.893522 13.6406 11.6241)'
-    //                     fill='#0684C1'
-    //                   />
-    //                 </svg>
-    //               </div>
-
-    //               <h2 className='text-[28px] text-[#036A9D] font-bold'>
-    //                 Best performances
-    //               </h2>
-    //             </div>
-
-    //             <div className='mt-5'>
-    //               <p className='text-[26px] text-[#175574]'>
-    //                 At the core of our mission is the optimization of your time,
-    //                 physical vitality, and mental energy, enabling you to
-    //                 concentrate more effectively on your objectives and excel in
-    //                 your professional endeavors.
-    //               </p>
-    //             </div>
-    //           </div>
-
-    //           <div className='border-[#D79442] border-3 mt-10 w-full p-3 bg-[#abe1f8b0] rounded-2xl'>
-    //             <div className='flex gap-4'>
-    //               <div className='w-14 h-14'>
-    //                 <svg
-    //                   xmlns='http://www.w3.org/2000/svg'
-    //                   width='57'
-    //                   height='53'
-    //                   viewBox='0 0 57 53'
-    //                   fill='none'
-    //                 >
-    //                   <g className='mix-blend-multiply'>
-    //                     <rect
-    //                       width='56.3891'
-    //                       height='52.7426'
-    //                       rx='10'
-    //                       transform='matrix(-1 0 0 1 57 0.078125)'
-    //                       fill='#ABE1F8'
-    //                     />
-    //                   </g>
-    //                   <rect
-    //                     width='2.38485'
-    //                     height='15.0044'
-    //                     transform='matrix(0.880781 0.473384 -0.448173 0.893877 45.1963 24.8887)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38765'
-    //                     height='11.6785'
-    //                     transform='matrix(0.880927 0.473095 -0.448454 0.893726 47.3115 27.9197)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.39194'
-    //                     height='8.35155'
-    //                     transform='matrix(0.88113 0.472691 -0.448836 0.893521 49.4248 30.9506)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38485'
-    //                     height='15.0044'
-    //                     transform='matrix(-0.880782 -0.473384 -0.448173 0.893877 20.8457 11.7358)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.38765'
-    //                     height='11.6785'
-    //                     transform='matrix(-0.880927 -0.473095 -0.448454 0.893726 17.2432 11.6799)'
-    //                     fill='#0684C1'
-    //                   />
-    //                   <rect
-    //                     width='2.39194'
-    //                     height='8.35155'
-    //                     transform='matrix(-0.88113 -0.472691 -0.448836 0.893522 13.6406 11.6241)'
-    //                     fill='#0684C1'
-    //                   />
-    //                 </svg>
-    //               </div>
-
-    //               <h2 className='text-[28px] text-[#036A9D] font-bold'>
-    //                 Save time
-    //               </h2>
-    //             </div>
-
-    //             <div className='mt-5'>
-    //               <p className='text-[26px] text-[#175574]'>
-    //                 We take care of the entire process, from meal preparation to
-    //                 packaging and doorstep delivery, allowing you to save both
-    //                 time and money. This way, you can dedicate more precious
-    //                 moments to your loved ones.
-    //               </p>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </>
     <>
       <div className='w-full flex justify-center font-serif py-20 max-sm:py-5'>
         <div className='w-[90%] flex flex-col gap-5'>
@@ -274,3 +42,81 @@ const Stream = () => {
 }
 
 export default Stream
+// 'use client';
+// import { useEffect, useState } from 'react';
+
+// const Timeline = () => {
+//   const [scrollY, setScrollY] = useState(0);
+//   const [windowHeight, setWindowHeight] = useState(0);
+//   const [documentHeight, setDocumentHeight] = useState(0);
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       setScrollY(window.scrollY);
+//     };
+
+//     const handleResize = () => {
+//       setWindowHeight(window.innerHeight);
+//       setDocumentHeight(document.body.scrollHeight);
+//     };
+
+//     window.addEventListener('scroll', handleScroll);
+//     window.addEventListener('resize', handleResize);
+//     handleResize();
+
+//     return () => {
+//       window.removeEventListener('scroll', handleScroll);
+//       window.removeEventListener('resize', handleResize);
+//     };
+//   }, []);
+
+//   const items = [
+//     {
+//       title: "Comprehensive IT Consultancy Services",
+//       description: "Hiring Tech IT Services offers advanced IT consultancy services catering to both IT and Non-IT industries across India. Our expertise covers a wide range of solutions tailored to meet specific industry needs.",
+//     },
+//     {
+//       title: "Best performances",
+//       description: "At the core of our mission is the optimization of your time, physical vitality, and mental energy, enabling you to concentrate more effectively on your objectives and excel in your professional endeavors.",
+//     },
+//     {
+//       title: "Save time",
+//       description: "We take care of the entire process, from meal preparation to packaging and doorstep delivery, allowing you to save both time and money. This way, you can dedicate more precious moments to your loved ones.",
+//     },
+//     // Add more items as needed
+//   ];
+
+//   const getProgress = (index) => {
+//     if (windowHeight === 0 || documentHeight === 0) return 0;
+//     const totalHeight = documentHeight - windowHeight;
+//     const currentProgress = scrollY / totalHeight;
+//     const step = 1 / items.length;
+//     return currentProgress > step * index ? 1 : currentProgress > step * (index - 1) ? (currentProgress - step * (index - 1)) / step : 0;
+//   };
+
+//   return (
+//     <div className="relative w-full flex justify-center mx-auto py-12">
+//       <div className="w-[90%]">
+//         <h1 className="text-heading-color text-3xl font-bold mb-8">Streamlined IT Solutions</h1>
+//         <div className="relative pl-12">
+//           <div className="absolute top-0 left-6 w-1 h-full bg-gray-300"></div>
+//           <div
+//             className="absolute top-0 left-6 w-1 bg-line-color transition-all duration-300"
+//             style={{ height: `${getProgress(items.length - 1) * 100}%` }}
+//           ></div>
+//           {items.map((item, index) => (
+//             <div key={index} className={`relative mb-8 pl-8 transition-all duration-300 ${getProgress(index) > 0 ? 'text-blog-text-color' : 'text-gray-400'}`}>
+//               <div className="absolute -left-7 top-1.5 w-3 h-3 rounded-full bg-line-color"></div>
+//               <h2 className="text-xl font-bold">{item.title}</h2>
+//               <p>{item.description}</p>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Timeline;
+
+

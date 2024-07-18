@@ -8,6 +8,7 @@ import Team from '@/components/Aboutpage/Team'
 import React from 'react'
 import AboutLayout from './layout'
 import Last from '@/components/homepage/Last'
+import Timeline from '@/components/Aboutpage/Stream'
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
         <About />
         {/* <Mission /> */}
         <Stream />
+        {/* <Timeline /> */}
         {/* <ScrollAnimation /> */}
         <Team />
         {/* <Offer /> */}
