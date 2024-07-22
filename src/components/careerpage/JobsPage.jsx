@@ -1,4 +1,5 @@
 'use client'
+'use client'
 
 import React, { useState } from 'react'
 import axios from 'axios'
@@ -6,6 +7,7 @@ import './career.scss'
 import img from './12.png'
 import Image from 'next/image'
 
+// Mock jobs data
 const jobsData = [
   {
     id: 6,
@@ -221,22 +223,106 @@ const jobsData = [
   }
 ]
 
+// Reusable Input Component
+const Input = ({ type, name, value, onChange, placeholder }) => (
+  <input
+    type={type}
+    name={name}
+    value={value}
+    onChange={onChange}
+    placeholder={placeholder}
+    className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+    required
+  />
+);
+
+// Job Card Component
+const JobCard = ({ job, onClick }) => (
+  <li
+    key={job.id}
+    className='mb-4 p-4 bg-[#fff] rounded-md cursor-pointer max-w-5xl w-[1000px] flex justify-between max-md:flex-wrap'
+    onClick={() => onClick(job)}
+  >
+    <div className='flex flex-col'>
+      <div className='flex flex-col max-sm:flex-row max-sm:justify-start max-sm:items-center justify-center gap-3'>
+        <Image src={img} alt='' className='max-sm:w-[40px]' />
+        <h2 className='text-xl max-sm:text-[16px] font-bold'>{job.title}</h2>
+      </div>
+      <ul className='mt-2 flex flex-wrap items-center gap-2 max-sm:gap-0 max-md:w-full'>
+        <li>Skills:</li>
+        {job.tags.map(tag => (
+          <li key={tag} className='inline-block max-sm:text-[14px] bg-[#EBF6FC] font-bold text-[#001833] px-2 py-1 rounded-md m-2'>
+            {tag}
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div className='flex flex-col gap-4 justify-center items-center'>
+      <p className='text-[#001833] w-[150px] max-md:w-[100px] text-center'>
+        {job.location}
+      </p>
+      <div className='mt-2'>
+        <button className='px-8 py-3 max-sm:text-[14px] max-sm:py-1 bg-[#D79442] hover:bg-[#CC7914] text-white rounded-3xl'>
+          Apply
+        </button>
+      </div>
+    </div>
+  </li>
+);
+
+// Job Details Component
+const JobDetails = ({ job, onApplyClick }) => (
+  <div className='fixed inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-[9999]'>
+    <div className='bg-white p-8 max-w-md rounded-lg'>
+      <div className='apply-form'>
+        <div className='fixed inset-0 flex justify-center items-center bg-white bg-opacity-50 z-[9999]'>
+          <div className='bg-white p-10 max-w-xl rounded-lg flex max-w-[1200px] gap-20 max-sm:gap-4 justify-center items-center max-lg:flex-wrap'>
+            <div className='job-description max-w-6xl overflow-y-scroll h-[500px] mt-20 max-sm:h-[400px] max-sm:mt-4'>
+              <h2 className='text-2xl font-semibold mb-4'>{job.title}</h2>
+              <p className='text-gray-600 mb-4'>{job.location}</p>
+              <p className='mb-4'>{job.description}</p>
+              <h2 className='text-2xl font-semibold mb-4'>Responsibilities</h2>
+              <ul className='list-disc ml-5'>
+                {job.responsiblity.map(tag => (
+                  <li key={tag} className='text-black mb-2'>{tag}</li>
+                ))}
+              </ul>
+              <h2 className='text-2xl font-semibold mb-4'>Prerequisites</h2>
+              <ul className='list-disc ml-5'>
+                {job.Prerequisite.map(tag => (
+                  <li key={tag} className='text-black mb-2'>{tag}</li>
+                ))}
+              </ul>
+              <button className='mt-10 p-4 bg-gray-900 rounded-full text-white' onClick={onApplyClick}>
+                Apply Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+// Main Component
 const JobsPage = () => {
   const [filter, setFilter] = useState('')
   const [filteredJobs, setFilteredJobs] = useState(jobsData)
   const [selectedJob, setSelectedJob] = useState(null)
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [resume, setResume] = useState('')
-  const [number, setNumber] = useState('')
-  const [experience, setExperience] = useState('')
-  const [CTC, setCTC] = useState('')
-  const [ECTC, setECTC] = useState('')
-  const [location, setLocation] = useState('')
-  const [Notice, setNotice] = useState('')
-  const [load, setLoad] = useState(false)
-  const [position, setPosition] = useState(false)
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    resume: '',
+    number: '',
+    experience: '',
+    CTC: '',
+    ECTC: '',
+    location: '',
+    Notice: '',
+    position: false
+  })
 
+  const [load, setLoad] = useState(false)
   const [apply, setApply] = useState(false)
 
   const handleFilterChange = e => {
@@ -265,48 +351,38 @@ const JobsPage = () => {
 
   const handleSubmit = async e => {
     e.preventDefault()
-
     try {
       setLoad(true)
-      const response = await axios.post('/api', {
-        name: name,
-        email: email,
-        resume: resume,
-        number: number,
-        experience: experience,
-        CTC: CTC,
-        ECTC: ECTC,
-        location: location,
-        Notice: Notice,
-        position: position
-      })
-      if (response.status == 200) {
-        // setLoad(true);
+      const response = await axios.post('/api', formData)
+      if (response.status === 200) {
         alert('Mail sent successfully')
       }
-      // console.log(response.data.message);
     } catch (error) {
       alert('Failed to send email')
       console.error('Error occurred while sending email:', error)
     } finally {
-      setLoad(false) // Reset load state back to false after submission
+      setLoad(false)
     }
   }
 
-  const handelApply = async () => {
+  const handleChange = e => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
+  }
+
+  const handelApply = () => {
     setApply(!apply)
   }
-  const handledele = async () => {
-    setApply(!apply)
+
+  const handleClose = () => {
+    setApply(false)
     setSelectedJob(null)
   }
+
   return (
-    <>
-      <div className='bgcareer bg-[#FFF7F7] pt-20'>
-        <div className='container mx-auto p-4 max-w-6xl mb-20 visionbg'>
-          <h2 className='text-4xl font-bold mb-4 text-[#062b43]'>
-            Job Listings
-          </h2>
+    <div className='w-full flex justify-center'>
+      <div className='bgcareer w-[90%] bg-[#FFF7F7] pt-20 max-md:pt-0'>
+        <div className='container mx-auto p-4 max-md:p-0 max-w-6xl mb-20 max-md:mb-5 visionbg'>
+          <h2 className='text-4xl max-md:text-[24px] font-bold mb-4 text-[#062b43]'>Job Listings</h2>
           <input
             type='text'
             placeholder='Filter by title, location, or tag'
@@ -314,254 +390,72 @@ const JobsPage = () => {
             onChange={handleFilterChange}
             className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
           />
-          <ul className='flex flex-wrap gap-5 max-w-5xl mx-auto mt-10'>
+          <ul className='flex flex-wrap gap-5 max-w-5xl mx-auto mt-10 max-md:mt-4'>
             {filteredJobs.map(job => (
-              <li
-                key={job.id}
-                className='mb-4 p-4 bg-[#fff] rounded-md cursor-pointer max-w-5xl  w-[1000px] flex justify-between max-md:flex-wrap max-md:'
-                onClick={() => handleJobClick(job)}
-              >
-                <div className='flex flex-col'>
-                  <div className='flex flexcol justifycenter items-center gap-3'>
-                    <Image src={img} alt='' />
-                    <h2 className='text-xl font-bold w-[200px]'>{job.title}</h2>
-                  </div>
-                  <ul className='mt-2 flx flex-wrap gap-5 w-[600px] max-md:w-full'>
-                    <li>skills:</li>
-                    {/* <br /> */}
-                    {job.tags.map(tag => (
-                      <li
-                        key={tag}
-                        className='inline-block bg[#062b43] font-bold text-[#001833] bg-[#EBF6FC]  px-2 py-1 rounded-md m-2 font '
-                      >
-                        {tag}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className='flex flex-col gap-4 justify-center items-center'>
-                  <p className='text-[#001833] w-[150px] max-md:w-[100px] text-center'>
-                    {job.location}
-                  </p>
-
-                  <div className='mt-2'>
-                    <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] hover:bg-[#CC7914] text-white hovertext-black rounded-3xl  '>
-                      Apply
-                    </button>
-                  </div>
-                </div>
-              </li>
+              <JobCard key={job.id} job={job} onClick={handleJobClick} />
             ))}
           </ul>
           {selectedJob && (
-            <div className='fixd inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-[9999999999999999999999999999999999999999999999999]'>
-              <div className='bg-white p-8 max-w-md rounded-lg'>
-                <div className='applyform'>
-                  <div className='fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[9999999999999999999999999999999999999999999999999]'>
-                    <div className='bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 max-sm:gap-4 justify-center items-center max-lg:flex-wrap'>
-                      <div className='job-discription max-w-6xl overflow-y-scroll h-[600px] mt-20 max-sm:h-[600px] max-sm:mt-4'>
-                        <h2 className='text-2xl font-semibold mb-4'>
-                          {selectedJob.title}
-                        </h2>
-                        <p className='text-gray-600 mb-4'>
-                          {selectedJob.location}
-                        </p>
-                        <p className='mb-4'>{selectedJob.description}</p>
-                        <h2 className='text-2xl font-semibold mb-4'>
-                          responsiblity
-                        </h2>
-                        {selectedJob.responsiblity.map(tag => (
-                          <li
-                            key={tag}
-                            className='lock list-disc text-black px-0 py-1 rounded-md mr-2'
-                          >
-                            {tag}
-                          </li>
-                        ))}
-                        <h2 className='text-2xl font-semibold mb-4'>
-                          Prerequisite
-                        </h2>
-                        {selectedJob.Prerequisite.map(tag => (
-                          <li
-                            key={tag}
-                            className='lock list-disc text-black px-0 py-1 rounded-md '
-                          >
-                            {tag}
-                          </li>
-                        ))}
-
-                        <button
-                          className='mt-10 p-4 bg-gray-900 rounded-full text-white'
-                          onClick={handelApply}
-                        >
-                          Apply Now
-                        </button>
-                      </div>
-
-                      {apply && (
-                        <div className='fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[9999999999999999999999999999999999999999999999999999] max-md:p-10'>
-                          <form
-                            onSubmit={handleSubmit}
-                            className='flx felx-wrap gap-20 h-full mt-52'
-                          >
-                            <div className='flex gap-4'>
-                              <input
-                                type='text'
-                                name='name'
-                                value={name}
-                                onChange={e => setName(e.target.value)}
-                                placeholder='Your Name'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                              <input
-                                type='email'
-                                name='email'
-                                value={email}
-                                onChange={e => setEmail(e.target.value)}
-                                placeholder='Your Email'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                            </div>
-                            <div className='flex gap-4'>
-                              <input
-                                type='text'
-                                name='number'
-                                value={number}
-                                onChange={e => setNumber(e.target.value)}
-                                placeholder='Your Number'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                              <input
-                                type='text'
-                                name='exp'
-                                value={experience}
-                                onChange={e => setExperience(e.target.value)}
-                                placeholder='Experince you have'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                            </div>
-
-                            <div className='flex gap-4'>
-                              <input
-                                type='number'
-                                name='ctc'
-                                value={CTC}
-                                onChange={e => setCTC(e.target.value)}
-                                placeholder='Current CTC'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                              <input
-                                type='number'
-                                name='ectc'
-                                value={ECTC}
-                                onChange={e => setECTC(e.target.value)}
-                                placeholder='Expected CTC'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                            </div>
-                            <div className='flex gap-4'>
-                              <input
-                                type='text'
-                                name='location'
-                                value={location}
-                                onChange={e => setLocation(e.target.value)}
-                                placeholder='Current location'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                              <input
-                                type='number'
-                                name='notice'
-                                value={Notice}
-                                onChange={e => setNotice(e.target.value)}
-                                placeholder='Notice period '
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                            </div>
-                            <div className='flex gap-4'>
-                              <input
-                                type='text'
-                                name='resume'
-                                value={resume}
-                                onChange={e => setResume(e.target.value)}
-                                placeholder='paste only Google Drive Link here'
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                                required
-                              />
-                            </div>
-                            <div className='flex gap-4'>
-                              <select
-                                value={position}
-                                onChange={e => setPosition(e.target.value)}
-                                className='w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500'
-                              >
-                                <option value=''>Select Job Position</option>
-                                <option value='React dev'>React dev</option>
-                                <option value='React Native'>
-                                  React Native
-                                </option>
-                                <option value='Java dev'>Java dev</option>
-                                <option value='Us It  Recruiter '>
-                                  Us It Recruiter
-                                </option>
-                                {/* Add more options as needed */}
-                              </select>
-                            </div>
-                            <button
-                              type='submit'
-                              className='hover:bg-[#dc4c51] bg-[#062b43] text-white py-2 px-4 rounded-md w-full'
-                              disabled={load}
-                            >
-                              {load ? 'loading' : 'Apply Now'}
-                            </button>
-                          </form>
-                          <div className='absolute right-20 top-32 max-sm:right-4  max-sm:top-10'>
-                            <button
-                              type='reset'
-                              className='bg-gray-300 text-gray-800 py-2 px-4 rounded-md ml-2'
-                              onClick={handledele}
-                            >
-                              <svg
-                                xmlns='http://www.w3.org/2000/svg'
-                                width='24'
-                                height='24'
-                                viewBox='0 0 24 24'
-                              >
-                                <path d='M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z' />
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
+            <JobDetails job={selectedJob} onApplyClick={handelApply} />
+          )}
+          {apply && (
+            <div className='fixed inset-0 flex flex-col justify-center items-center bg-white z-[9999] max-md:p-10'>
+              <form onSubmit={handleSubmit} className='flex  flex-col h-full mt-52'>
+                <div className='flex gap-4'>
+                  <Input
+                    type='text'
+                    name='name'
+                    value={formData.name}
+                    onChange={handleChange}
+                    placeholder='Your Name'
+                  />
+                  <Input
+                    type='email'
+                    name='email'
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder='Your Email'
+                  />
                 </div>
-                {/* <button
-              className="bg-blue-500 text-white py-2 px-4 rounded-md"
-              onClick={handleApplyClick}
-            >
-              Apply
-            </button>
-            <button
-              className="bg-gray-300 text-gray-800 py-2 px-4 rounded-md ml-2"
-              onClick={() => setSelectedJob(null)}
-            >
-              Close
-            </button> */}
-              </div>
+                <div className='flex gap-4'>
+                  <Input
+                    type='text'
+                    name='resume'
+                    value={formData.resume}
+                    onChange={handleChange}
+                    placeholder='Your Resume'
+                  />
+                  <Input
+                    type='text'
+                    name='number'
+                    value={formData.number}
+                    onChange={handleChange}
+                    placeholder='Your Number'
+                  />
+                </div>
+                {/* Add more inputs as needed */}
+                <button
+                  type='submit'
+                  className='mt-10 p-4 bg-gray-900 rounded-full text-white'
+                >
+                  Submit
+                </button>
+                <button
+                  type='button'
+                  className='mt-5 p-4 bg-red-600 rounded-full text-white ml-4'
+                  onClick={handleClose}
+                >
+                  Close
+                </button>
+              </form>
             </div>
           )}
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
 export default JobsPage
+
+
