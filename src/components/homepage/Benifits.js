@@ -58,9 +58,9 @@ const Benefits = () => {
                             </div>
                         ))}
                     </div>
-                    <div className='w-full flex justify-center py-5'>
+                    {/* <div className='w-full flex justify-center py-5'>
                         <button className='text-[#fff] text-2xl max-md:text-[16px] bg-[#D79442] px-8 py-4 max-md:px-4 max-md:py-1 rounded-[40px]'>Explore more</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

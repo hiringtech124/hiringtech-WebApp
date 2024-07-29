@@ -53,6 +53,7 @@ function Footer() {
                             <div className='flex flex-col gap-3'>
                                 <h1 className='font-bold text-[25px] max-lg:text-[20px] max-sm:text-[16px]'>For Employees</h1>
                                 <p>+91 877-0161528</p>
+                                <p>priyanka@hiringtech.in</p>
                                 <p>career@hiringtech.in</p>
                                 <p>Sales@hiringtech.in</p>
                             </div>

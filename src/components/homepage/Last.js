@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import img from './assets/last.svg'
+import Link from 'next/link'
 const Last = () => {
     return (
         <>
@@ -12,9 +13,9 @@ const Last = () => {
                         <h2 className='text-[41px] max-xl:text-[34px] max-lg:text-[28px] max-md:text-[24px]
                          max-sm:text-[12px] max-sm:leading-4 text-[#062B43] font-bold'>
                             Ready To Elevate Your <br /> Brand With Creative <br /> Design Solutions?</h2>
-                        <button className='text-[#fff] text-2xl max-md:text-[16px] max-sm:text-[10px]
+                        <Link href="/contact"><button className='text-[#fff] text-2xl max-md:text-[16px] max-sm:text-[10px]
                          bg-[#D79442] px-8 py-4 max-md:px-4 max-md:py-1 max-sm:py-0 max-sm:leading-6 
-                         rounded-[40px]'>Contact Us</button>
+                         rounded-[40px]'>Contact Us</button></Link>
                     </div>
                 </div>
             </div>

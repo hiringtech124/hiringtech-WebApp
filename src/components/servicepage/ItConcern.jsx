@@ -224,7 +224,7 @@ const ItConcern = () => {
   return (
     <div className='startw'>
       {services.map((service, index) => (
-        <div key={index} className='serviepageappdes my-10 max-lg:px-4 bg-srvice xl:sticky xl:top-[250px] max-sm:sticky  max-sm:top-[100px]'>
+        <div key={index} className='serviepageappdes my-10 max-lg:px-4 bg-srvice xl:sticky xl:top-[130px] max-sm:sticky  max-sm:top-[100px]'>
           <div className='w-full h-full relative max-lg:h-full'>
             <div className={`flex ${service.style} max-lg:flex-wrap max-lg:justify-center max-lg:items-center max-w-6xl max-xl:w-[90%] mx-auto justify-center gap-40 max-xl:gap-10 items-center bg-white p-8 max-md:p-4 max-sm:p-4 max-sm:mx-auto rounded-[50px] max-sm:rounded-[20px] max-md:gap-10 max-sm:gap-2 `}>
               <div className='h-full bg-inc-100 flex-col relative justify-center items-center flex'>

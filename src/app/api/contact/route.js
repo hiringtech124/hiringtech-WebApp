@@ -18,7 +18,7 @@ export async function POST(req, res) {
     });
     const mailData = {
       from: email,
-      to: "hr@hiringtech.in",
+      to: "priyanka@hiringtech.in",
       subject: "New Resume Submission",
       text: `Name: ${bodyreq.name}\nLastName: ${bodyreq.lastname}\nEmail: ${bodyreq.email}\nMessage: ${bodyreq.message}`,
     };
