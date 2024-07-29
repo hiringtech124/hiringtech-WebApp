@@ -59,7 +59,7 @@ const Hero = () => {
             <h1 className='text-[52px] drop-shadow-xl max-xl:text-[40px] max-lg:text-[32px] max-sm:text-[24px] max-w-6xl max-md:w-full text-[#062B43] font-bold tracking-tight leading-[62px] max-lg:leading-[50px] max-sm:leading-[30px]'>
               Welcome to<br /> Hiring Tech - India&apos;s No. 1<br /> IT{' '}
               <span className={`inline-flex ${textClass}`}>
-                <TextTransition springConfig={presets.wobbly}>{currentText}</TextTransition>
+                <TextTransition className='w-[300px] max-xl:w-[230px] max-lg:w-[180px] max-sm:w-[135px]' springConfig={presets.wobbly}>{currentText}</TextTransition>
               </span> Agency
             </h1>
             <p className='mr-20 max-md:mr-0 text-[24px] max-xl:text-[18px] max-lg:text-[14px] max-md:text-[18px] max-sm:text-[14px] font-medium opacity-85 leading-7 max-lg:leading-5 mt-4 max-sm:mt-2 text-[#175574]'>
