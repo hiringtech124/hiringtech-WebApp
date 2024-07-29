@@ -16,6 +16,7 @@ import hero8 from './clients/pay.png'
 import hero9 from './clients/inc.png'
 import hero10 from './clients/gen.png'
 import hero11 from './clients/ch.png'
+import './home.css'
 
 import TextTransition, { presets } from 'react-text-transition';
 
@@ -34,7 +35,7 @@ const Hero = () => {
   }, []);
 
   const currentText = TEXTS[index % TEXTS.length];
-  const textClass = currentText === "Recruitment" ? "text-[#D79442]" : currentText === "Consultancy" ? "text-[#062B43]" : "";
+  const textClass = currentText === "Recruitment" ? "text-[#D79442]" : currentText === "Consultancy" ? "text-[#007BFF]" : "";
 
   const images = [
     { img: hero },

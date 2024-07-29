@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradient-text {
+  background: linear-gradient(93.28deg, #D79442 -0.42%, #FFB55B 103.81%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 :root {
   margin: 0;
   padding: 0;
@@ -10,8 +17,10 @@
 
 ::selection {
   background-color: #0b5486;
-  color: #fff; /* Optional: Change the text color */
+  color: #fff;
+  /* Optional: Change the text color */
 }
+
 body {
   background: #fff7f7;
 }
