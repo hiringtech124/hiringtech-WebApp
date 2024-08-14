@@ -36,8 +36,23 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <head>
 
+
         <title>Leading IT Consulting & Recruitment Solutions - Hiring Tech</title>
         <meta name="description" content="Discover top-notch IT consulting and recruitment services at Hiring Tech. We offer expert training, talent acquisition, and innovative tech solutions to empower your business. Partner with us to transform your IT landscape." />
+        {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="afterInteractive" dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KX5N5SGQ');
+          `
+        }} />
+
+
+
+
         {/* Google Analytics */}
         <Script id="inline-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6TKGW738HL" />
         <Script id="inline-script" dangerouslySetInnerHTML={
@@ -50,12 +65,28 @@ export default function RootLayout({ children }) {
           `}
         }
 
+
+        />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16671188473" />
+        <Script id="inline-script" dangerouslySetInnerHTML={
+          {
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16671188473');
+          `}
+        }
+
+
         />
       </head>
 
 
 
       <body className={inter.className}>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX5N5SGQ"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <Header2 />
 
         <main className='max-w7xl mx-auto er font-serif'>
