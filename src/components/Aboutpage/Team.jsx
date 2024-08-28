@@ -381,30 +381,12 @@ const Team = () => {
       title: 'Talent Acquisition',
       linkedin: 'http://www.linkedin.com/in/shruti-dixit-23b1021b7'
     },
-    // {
-    //   img: Ayushi,
-    //   name: 'Ayushi Raj',
-    //   title: 'Marketing and Business Development Coordinator',
-    //   linkedin: 'https://www.linkedin.com/in/ayushi-raj-b63286210/'
-    // },
-    // {
-    //   img: Priya,
-    //   name: 'Priyanka Shirapure',
-    //   title: 'Digital Marketing Analyst',
-    //   linkedin: 'https://www.linkedin.com/in/priyanka-shirapure-548658102'
-    // },
     {
       img: dev,
       name: 'Devayani Deshmukh',
       title: 'UI/UX Specialist',
       linkedin: 'http://linkedin.com/in/devayani-deshmukh-a29451297'
     },
-    // {
-    //   img: jat,
-    //   name: 'Jatin kumar',
-    //   title: 'UI/UX Designer',
-    //   linkedin: 'https://www.linkedin.com/in/jatinkumar05/'
-    // },
     {
       img: siddhi,
       name: 'Siddhi Lad',
