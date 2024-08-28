@@ -86,7 +86,7 @@ export default function RootLayout({ children }) {
 
       <body className={inter.className}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX5N5SGQ"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe></noscript>
         <Header2 />
 
         <main className='max-w7xl mx-auto er font-serif'>
