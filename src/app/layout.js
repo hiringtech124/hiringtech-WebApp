@@ -10,7 +10,7 @@ import Lenis from 'lenis'
 import { useEffect } from 'react'
 import Footer from '@/components/placementPage/footer/Footer'
 import Script from "next/script";
-
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -122,7 +122,9 @@ export default function RootLayout({ children }) {
               />
             </svg>
           </Link>
+
         </div>
+        <Analytics />
       </body>
     </html>
   )
