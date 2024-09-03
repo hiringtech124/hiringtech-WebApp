@@ -87,6 +87,13 @@ const Header2 = () => {
                   <Link
                     onClick={hamburger}
                     className='hovertext-[#733e3d]  text-white'
+                    href='/health-care'
+                  >
+                    Healthcare
+                  </Link>
+                  <Link
+                    onClick={hamburger}
+                    className='hovertext-[#733e3d]  text-white'
                     href='/career'
                   >
                     Career
@@ -170,28 +177,35 @@ const Header2 = () => {
             </a> */}
             <Link className='hover:text-[#733e3d]' href='/services'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-4 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-2 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Service
+                </div>
+              </div>
+            </Link>
+            <Link className='hover:text-[#733e3d]' href='/health-care'>
+              <div className='flex flex-col justify-center whitespace-nowrap'>
+                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-2 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                  Healthcare
                 </div>
               </div>
             </Link>
             <Link className='hover:text-[#733e3d]' href='/career'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-4 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-8 py-4 max-xl:px-5 max-xl:py-3 max-lg:px-2 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Career
                 </div>
               </div>
             </Link>
             <Link className='hover:text-[#733e3d]' href='/training'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-7 py-3.5 max-xl:px-4 max-xl:py-2.5 max-lg:px-3 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-7 py-3.5 max-xl:px-4 max-xl:py-2.5 max-lg:px-2 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Training
                 </div>
               </div>
             </Link>
             <Link className='hover:text-[#733e3d]' href='/blog'>
               <div className='flex flex-col justify-center whitespace-nowrap'>
-                <div className='justify-center px-7 py-3.5 max-xl:px-4.5 max-xl:py-2.5 max-lg:px-2.5 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
+                <div className='justify-center px-7 py-3.5 max-xl:px-4.5 max-xl:py-2.5 max-lg:px-2 max-lg:py-1.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]'>
                   Blogs
                 </div>
               </div>
@@ -199,7 +213,7 @@ const Header2 = () => {
 
             <Link href='/contact'>
               <div className='flex  flex-col justify-center self-stretch my-auto'>
-                <div className='justify-center shadow-xl bg-[#D79442] px-9 py-4 max-xl:px-4 max-xl:py-2.5 max-lg:px-4 max-lg:py-1.5 rounded-[54px] max-md:px-5 lettl hover:border-[#CC7914] hovertext-[#00557E] hover:bg-[#CC7914] text-[#fff]'>
+                <div className='justify-center shadow-xl bg-[#D79442] px-9 py-4 max-xl:px-4 max-xl:py-2.5 max-lg:px-2 max-lg:py-1.5 rounded-[54px] max-md:px-5 lettl hover:border-[#CC7914] hovertext-[#00557E] hover:bg-[#CC7914] text-[#fff]'>
                   Lets Talk
                 </div>
               </div>

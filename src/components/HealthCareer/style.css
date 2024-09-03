@@ -1,0 +1,11 @@
+/* Add this to your global CSS file or within a <style> tag in your component */
+.transition-enter {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.transition-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}

@@ -44,7 +44,7 @@ const Whyapp = () => {
                         </div>
                     ))}
                 </div>
-                <div className='flex justify-center pt-10 max-sm:pt-5'><Link href='/contact'><p className="text-[20px] max-sm:text-[14px] w-[250px] max-sm:w-[170px] text-center py-2 max-sm:py-1 text-[#fff] bg-[#D79442] rounded-3xl">Talk to our Export</p></Link></div>
+                <div className='flex justify-center pt-10 max-sm:pt-5'><Link href='/contact'><p className="text-[20px] max-sm:text-[14px] w-[250px] max-sm:w-[170px] text-center py-2 max-sm:py-1 text-[#fff] bg-[#D79442] rounded-3xl">Talk to our Expert</p></Link></div>
             </div>
         </div>
     );
