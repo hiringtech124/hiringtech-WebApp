@@ -17,12 +17,12 @@ function Footer() {
                     </div>
                     <div className='w-[80%] max-md:w-[90%] flex justify-between py-[30px]'>
                         <div className='flex gap-10 max-md:flex-wrap mr-[20px]'>
-                            <div className='flex flex-col gap-5 max-sm:gap-3'>
+                            {/* <div className='flex flex-col gap-5 max-sm:gap-3'>
                                 <h1 className='font-bold text-[25px] max-lg:text-[20px] max-sm:text-[16px]'>Office</h1>
                                 <div>
                                     <p>India<br />919 9th floor, Shekhar<br />Central Indore,<br />MP 452001.</p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='flex flex-col gap-5 max-sm:gap-3'>
                                 <h1 className='font-bold text-[25px] max-lg:text-[20px] max-sm:text-[16px]'>Useful Links</h1>
                                 <ul className='flex flex-col gap-2'>
